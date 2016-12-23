@@ -1,4 +1,11 @@
 /* Modal Bokser START */
+@media only screen and (max-width: 1224px) { 
+    .boks-wrapper {
+        width: 600px;
+        height: 400px;
+     }
+}
+
 .boks-wrapper {
    border: 5px solid #009ee3;
    width: 300px;
