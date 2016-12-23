@@ -17566,6 +17566,8 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 324.8711 991.0088)"><tspan x="0" y="0" class="st32 st36 st39">Ju</tspan><tspan x="16.3" y="0" class="st32 st36 st39">v</tspan><tspan x="26.5" y="0" class="st32 st36 st39">ass</tspan><tspan x="55.5" y="0" class="st32 st36 st39">h</tspan><tspan x="66.2" y="0" class="st32 st36 st39">ytta</tspan></text>
 	</g>
+        <g class="clickme" id="juvasshytta" type="image/svg+xml">		
+
 	<polygon class="st108" points="339.8,939.2 376.2,939.2 395.3,925.3 413.3,935.8 412.1,964.3 366.8,966.5 339.8,965.8 	"/>
 	<polygon class="st101" points="421.2,937.1 412.8,937.1 397.4,922.9 376.4,937.1 356.6,919.9 395.9,919.9 	"/>
 	<path class="st101" d="M410.8,937.1l-15-10.2l-15,10.2v26h30V937.1z M375,934l20.8-14.1l20.8,14.1v34.9H375V934z"/>
@@ -17580,6 +17582,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="359.6" y="946" class="st101" width="9.5" height="19.9"/>
 	<rect x="365.5" y="913.5" class="st47" width="6.4" height="14.7"/>
 	<rect x="362.7" y="914.4" class="st101" width="6.4" height="14.7"/>
+        </g>
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 316.8223 2791.0186)" class="st97 st36 st39">Surtningssue</text>
 	</g>

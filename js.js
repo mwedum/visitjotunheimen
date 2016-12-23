@@ -10,33 +10,26 @@ var width = $( document ).width();
     } else {
         svg.setAttribute("data", "Vinterkampanje.svg");
     }*/
-    
-    var mouseX;
-    var mouseY;
-   /* $(document).mousemove( function(e) {
-       mouseX = e.pageX; 
-       mouseY = e.pageY;
-       console.log("Muser");
-    });*/
 
 $(window).on('load', function() {
     
     var svgDoc = svg.contentDocument;
-    $('#fossheim').load("bokser/fossheim.html" );
-   
+    //$('#fossheim').load("bokser/fossheim.html" );
+
     var fossheim = svgDoc.getElementById("fossheim");
-    console.log(fossheim);
+    var juvass = svgDoc.getElementById("juvasshytta");
+   // var  = svgDoc.getElementById("");
     
     fossheim.addEventListener("mousedown", function () {
-        $('#fossheim').hide();
-            document.onmousemove = function(e){
-                mouseX = e.pageX;
-                mouseY = e.pageY;
-            }
-
-            $('#test').css({'top':mouseY,'left':mouseX}).fadeIn('slow');
-            console.log("X - " + mouseX);
-            console.log("Y - " + mouseY);
+        $('#myModal').modal('show');
+        $('#modalmobil').load("bokser/fossheim.html" );
+        console.log(this);
+        }, false);
+        
+    juvass.addEventListener("mousedown", function () {
+        console.log(this);
+        $('#myModal').modal('show');
+        $('#modalmobil').load("bokser/juvasshytta.html" );
         }, false);
                 
     $(fossheim).mouseover(function(){
