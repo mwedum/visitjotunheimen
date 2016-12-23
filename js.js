@@ -29,11 +29,16 @@ $(window).on('load', function() {
     var leirvassbu = svgDoc.getElementById("leirvassbu");
     var glitterheim = svgDoc.getElementById("glitterheim");
     var sognefjellshytta1 = svgDoc.getElementById("sognefjellshytta1");
-    var sognefjellshytta2 = svgDoc.getElementById("sognefjellshytta2");
     var memurbu = svgDoc.getElementById("memurbu");
     var gjendesheim = svgDoc.getElementById("gjendesheim");
     var turtagro = svgDoc.getElementById("turtagro");
     var krossbu = svgDoc.getElementById("krosbu");
+    var sognefjellshytta2;
+    var skilt;
+    if(width >= 1024) {
+        sognefjellshytta2 = svgDoc.getElementById("sognefjellshytta2");
+        skilt = svgDoc.getElementById("skilt");
+    }
 
     
     fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
@@ -49,10 +54,14 @@ $(window).on('load', function() {
     leirvassbu.addEventListener("mousedown", function () { showHytte("bokser/leirvassbu.html"); }, false);
     glitterheim.addEventListener("mousedown", function () { showHytte("bokser/glitterheim.html"); }, false);
     sognefjellshytta1.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
-    sognefjellshytta2.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
     memurbu.addEventListener("mousedown", function () { showHytte("bokser/memurbu.html"); }, false);
     gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
     krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
+    if(width >= 1024) {
+        sognefjellshytta2.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
+        skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
+    }
+
 });
 
 function showHytte(hytte) {

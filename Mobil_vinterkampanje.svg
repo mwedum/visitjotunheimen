@@ -17154,6 +17154,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<g class="st1">
 		<text transform="matrix(0.9848 0 -0.1736 0.9848 332.5311 2419.0588)" class="st97 st36 st98">2258 moh.</text>
 	</g>
+<g class="clickme" id="roisheim" type="image/svg+xml">		
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 331.3828 5084.1865)"><tspan x="0" y="0" class="st32 st36 st39">R</tspan><tspan x="12" y="0" class="st32 st36 st39">øisheim</tspan></text>
 	</g>
@@ -17227,6 +17228,8 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="394.8" y="5048.7" class="st47" width="2.1" height="5.7"/>
 	<rect x="328" y="5053.2" class="st100" width="84.4" height="8.6"/>
 	<rect x="345.2" y="5050.3" class="st100" width="49.6" height="7"/>
+</g>
+<g class="clickme" id="fjellogfritid" type="image/svg+xml">		
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 312.6299 5359.0991)" class="st32 st36 st39">Fjell og Fritid</text>
 	</g>
@@ -17237,6 +17240,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<polygon class="st101" points="366,5282.1 335.9,5301.9 337.2,5303.9 364.8,5303.9 366,5303.9 394.8,5303.9 396.2,5301.9 	"/>
 	<polygon class="st101" points="366,5282.5 396.2,5301.9 398.1,5299 366,5278.4 333.9,5299.1 335.9,5301.9 	"/>
 	<rect x="356.9" y="5304.7" class="st47" width="18.2" height="18.3"/>
+</g>
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 327.6963 4548.3354)"><tspan x="0" y="0" class="st32 st36 st39">F</tspan><tspan x="10.5" y="0" class="st32 st36 st39">ossheim</tspan></text>
 	</g>
@@ -17268,6 +17272,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<polygon class="st101" points="352.5,4451.6 339,4451.6 338.8,4428.8 362.8,4428.8 	"/>
 	<polygon class="st101" points="402.8,4512.4 393.9,4512.4 393.9,4447.8 402.8,4457 	"/>
 </g>
+<g class="clickme" id="fossberg" type="image/svg+xml">	
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 329.5361 4721.4863)"><tspan x="0" y="0" class="st32 st36 st39">F</tspan><tspan x="10.5" y="0" class="st32 st36 st39">ossbe</tspan><tspan x="61.7" y="0" class="st32 st36 st39">r</tspan><tspan x="68.1" y="0" class="st32 st36 st39">g</tspan></text>
 	</g>
@@ -17296,6 +17301,8 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<polygon class="st101" points="391.3,4627.8 404.8,4627.8 405,4605 381,4605 	"/>
 	<polygon class="st101" points="352.5,4627.8 339,4627.8 338.8,4605 362.8,4605 	"/>
 	<polygon class="st101" points="402.8,4688.6 393.9,4688.6 393.9,4624 402.8,4633.2 	"/>
+</g>
+<g class="clickme" id="raubergstulen" type="image/svg+xml">	
 	<g class="st1">
 		<text transform="matrix(0.9998 -1.745001e-02 1.745001e-02 0.9998 311.1494 5206.8213)"><tspan x="0" y="0" class="st32 st36 st39">Raube</tspan><tspan x="55.7" y="0" class="st32 st36 st39">r</tspan><tspan x="62.1" y="0" class="st32 st36 st39">g</tspan><tspan x="73.3" y="0" class="st32 st36 st39">s</tspan><tspan x="82.3" y="0" class="st32 st36 st39">tulen</tspan></text>
 	</g>
@@ -17313,7 +17320,10 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="354.3" y="5160.9" class="st101" width="9.5" height="19.9"/>
 	<rect x="360.2" y="5128.4" class="st47" width="6.4" height="14.7"/>
 	<rect x="357.4" y="5129.3" class="st101" width="6.4" height="14.7"/>
-	<g class="st1">
+</g>
+	
+<g class="clickme" id="nordal" type="image/svg+xml">	
+<g class="st1">
 		<text transform="matrix(1 0 0 1 344.3271 4890.1382)"><tspan x="0" y="0" class="st32 st36 st39">No</tspan><tspan x="24.5" y="0" class="st32 st36 st39">r</tspan><tspan x="30.8" y="0" class="st32 st36 st39">dal </tspan></text>
 	</g>
 	<g class="st1">
@@ -17388,6 +17398,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="396" y="4854.6" class="st47" width="2.1" height="5.7"/>
 	<rect x="329.1" y="4859.1" class="st100" width="84.4" height="8.6"/>
 	<rect x="346.3" y="4856.2" class="st100" width="49.6" height="7"/>
+</g>
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 138.3906 2044.6719)"><tspan x="0" y="0" class="st97 st36 st113">Høgruta i J</tspan><tspan x="220.1" y="0" class="st97 st36 st113 st43">o</tspan><tspan x="244.8" y="0" class="st97 st36 st113">tunheimen</tspan></text>
 	</g>
@@ -17397,6 +17408,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 69.1211 851.7061)"><tspan x="0" y="0" class="st32 st36 st114">turbeskri</tspan><tspan x="164.6" y="0" class="st32 st36 st114">v</tspan><tspan x="186.1" y="0" class="st32 st36 st114">elser/guid</tspan><tspan x="370.8" y="0" class="st32 st36 st114 st43">a</tspan><tspan x="391.6" y="0" class="st32 st36 st114">tu</tspan><tspan x="431.2" y="0" class="st32 st36 st114 st43">r</tspan><tspan x="444.5" y="0" class="st32 st36 st114">er/</tspan><tspan x="496.6" y="0" class="st32 st36 st114">h</tspan><tspan x="519.2" y="0" class="st32 st36 st114">ytter</tspan></text>
 	</g>
+<g class="clickme" id="gjendesheim" type="image/svg+xml">
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 414.4092 2193.6992)" class="st32 st36 st39">Gjendesheim</text>
 	</g>
@@ -17414,7 +17426,9 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="455" y="2149.9" class="st101" width="9.5" height="19.9"/>
 	<rect x="460.9" y="2117.3" class="st47" width="6.4" height="14.7"/>
 	<rect x="458.1" y="2118.2" class="st101" width="6.4" height="14.7"/>
-	<g class="st1">
+</g>
+<g class="clickme" id="bessheim" type="image/svg+xml">		
+<g class="st1">
 		<text transform="matrix(1 0 0 1 231.2305 2197.2842)" class="st32 st36 st39">Bessheim</text>
 	</g>
 	<polygon class="st108" points="236.7,2143 273.1,2143 292.2,2129.1 310.2,2139.6 309,2168.1 263.7,2170.4 236.7,2169.6 	"/>
@@ -17431,6 +17445,9 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="256.5" y="2149.9" class="st101" width="9.5" height="19.9"/>
 	<rect x="262.3" y="2117.3" class="st47" width="6.4" height="14.7"/>
 	<rect x="259.6" y="2118.2" class="st101" width="6.4" height="14.7"/>
+        </g>
+        
+<g class="clickme" id="memurbu" type="image/svg+xml">		
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 333.2324 2612.1758)" class="st32 st36 st39">Memurubu</text>
 	</g>
@@ -17448,6 +17465,8 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="360.6" y="2567.4" class="st101" width="9.5" height="19.9"/>
 	<rect x="366.5" y="2534.9" class="st47" width="6.4" height="14.7"/>
 	<rect x="363.7" y="2535.8" class="st101" width="6.4" height="14.7"/>
+        </g>
+<g class="clickme" id="jotunheimenfjellstue" type="image/svg+xml">		
 	<polygon class="st108" points="341.9,1311.3 378.3,1311.3 397.4,1297.3 415.4,1307.8 414.2,1336.3 368.9,1338.6 341.9,1337.8 	"/>
 	<polygon class="st101" points="423.3,1309.2 414.8,1309.2 399.5,1295 378.4,1309.2 358.7,1292 397.9,1292 	"/>
 	<path class="st101" d="M412.9,1309.2l-15-10.2l-15,10.2v26h30V1309.2z M377.1,1306.1l20.8-14.1l20.8,14.1v34.9h-41.6V1306.1z"/>
@@ -17468,6 +17487,9 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 334.2227 1383.7393)"><tspan x="0" y="0" class="st32 st36 st39">Fjell</tspan><tspan x="36.6" y="0" class="st32 st36 st39">s</tspan><tspan x="45.7" y="0" class="st32 st36 st39">tue</tspan></text>
 	</g>
+ </g>
+   <g class="clickme" id="sognefjellshytta1" type="image/svg+xml">		
+
 	<polygon class="st108" points="341.9,1646.8 378.3,1646.8 397.4,1632.9 415.4,1643.4 414.2,1671.9 368.9,1674.1 341.9,1673.4 	"/>
 	<polygon class="st101" points="423.3,1644.7 414.8,1644.7 399.5,1630.6 378.4,1644.7 358.7,1627.5 397.9,1627.5 	"/>
 	<path class="st101" d="M412.9,1644.7l-15-10.2l-15,10.2v26h30V1644.7z M377.1,1641.7l20.8-14.1l20.8,14.1v34.9h-41.6V1641.7z"/>
@@ -17482,6 +17504,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="361.7" y="1653.7" class="st101" width="9.5" height="19.9"/>
 	<rect x="367.5" y="1621.1" class="st47" width="6.4" height="14.7"/>
 	<rect x="364.8" y="1622" class="st101" width="6.4" height="14.7"/>
+        
 	<path class="st47" d="M304.8,1695.4c-1.4,0-2.4-0.1-3.3-0.3c-0.3-0.1-0.4-0.1-0.4-0.4v-0.8c0-0.2,0.2-0.3,0.3-0.3c0,0,0,0,0.1,0
 		c0.9,0.1,2.4,0.1,3.3,0.1c2.4,0,3-1,3-2.4c0-1-0.6-1.6-2.4-2.7l-1.9-1.2c-1.8-1.1-2.8-2.1-2.8-3.7c0-2.4,1.7-3.5,4.8-3.5
 		c1.2,0,2.7,0.1,3.5,0.2c0.2,0,0.3,0.1,0.3,0.3v0.9c0,0.2-0.1,0.3-0.3,0.3c0,0,0,0,0,0c-0.9-0.1-2.3-0.1-3.4-0.1
@@ -17529,7 +17552,9 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 		c0-1.7-0.6-2.3-2.1-2.3c-1.3,0-2.3,0.1-3.1,0.2c0,0-0.1,0-0.1,0c-0.2,0-0.4-0.1-0.4-0.3v-0.7c0-0.2,0.1-0.3,0.4-0.4
 		c0.8-0.1,1.7-0.3,3.1-0.3c2.8,0,3.9,1.4,3.9,3.8v7C442.8,1695.1,442.6,1695.3,442.4,1695.3z M441,1690h-1.5c-2.4,0-3.1,0.5-3.1,2
 		v0.2c0,1.4,0.7,1.8,1.8,1.8c0.9,0,1.7-0.3,2.7-0.8V1690z"/>
-	<g class="st1">
+</g>	
+<g class="clickme" id="glitterheim" type="image/svg+xml">		
+<g class="st1">
 		<text transform="matrix(1 0 0 1 329.7529 3002.0361)" class="st32 st36 st39">Glitterheim</text>
 	</g>
 	<polygon class="st108" points="344.9,2949.8 381.3,2949.8 400.4,2935.9 418.4,2946.4 417.2,2974.9 371.9,2977.1 344.9,2976.4 	"/>
@@ -17546,8 +17571,10 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="364.7" y="2956.6" class="st101" width="9.5" height="19.9"/>
 	<rect x="370.6" y="2924.1" class="st47" width="6.4" height="14.7"/>
 	<rect x="367.8" y="2925" class="st101" width="6.4" height="14.7"/>
+</g>
+<g class="clickme" id="spiterstulen" type="image/svg+xml">		
 	<g class="st1">
-		<text transform="matrix(1 0 0 1 322.0703 3408.957)"><tspan x="0" y="0" class="st32 st36 st39">Spiter</tspan><tspan x="52.2" y="0" class="st32 st36 st39">s</tspan><tspan x="61.2" y="0" class="st32 st36 st39">tulen</tspan></text>
+		<text transform="matrix(1 0 0 1 322.0703 3408.957)"><tspan x="0" y="0" class="st32 st36 st39">Spiterstulen</tspan></text>
 	</g>
 	<polygon class="st108" points="339.2,3354.4 375.6,3354.4 394.7,3340.5 412.7,3351 411.5,3379.5 366.2,3381.8 339.2,3381 	"/>
 	<polygon class="st101" points="420.6,3352.4 412.2,3352.4 396.8,3338.2 375.8,3352.4 356,3335.2 395.3,3335.2 	"/>
@@ -17563,6 +17590,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="359" y="3361.3" class="st101" width="9.5" height="19.9"/>
 	<rect x="364.9" y="3328.7" class="st47" width="6.4" height="14.7"/>
 	<rect x="362.1" y="3329.6" class="st101" width="6.4" height="14.7"/>
+</g>
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 324.8711 991.0088)"><tspan x="0" y="0" class="st32 st36 st39">Ju</tspan><tspan x="16.3" y="0" class="st32 st36 st39">v</tspan><tspan x="26.5" y="0" class="st32 st36 st39">ass</tspan><tspan x="55.5" y="0" class="st32 st36 st39">h</tspan><tspan x="66.2" y="0" class="st32 st36 st39">ytta</tspan></text>
 	</g>
@@ -17607,6 +17635,8 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<g class="st1">
 		<text transform="matrix(0.9848 0 -0.1736 0.9848 333.2141 1241.5508)" class="st51 st36 st98">2469 moh.</text>
 	</g>
+        
+<g class="clickme" id="krosbu" type="image/svg+xml">		
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 336.6104 4215.0273)"><tspan x="0" y="0" class="st32 st36 st39">K</tspan><tspan x="12.1" y="0" class="st32 st36 st39">r</tspan><tspan x="18.5" y="0" class="st32 st36 st39">ossbu</tspan></text>
 	</g>
@@ -17624,7 +17654,9 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="359" y="4166.4" class="st101" width="9.5" height="19.9"/>
 	<rect x="364.8" y="4133.8" class="st47" width="6.4" height="14.7"/>
 	<rect x="362" y="4134.8" class="st101" width="6.4" height="14.7"/>
-	<g class="st1">
+</g>
+<g class="clickme" id="leirvassbu" type="image/svg+xml">			
+<g class="st1">
 		<text transform="matrix(1 0 0 1 327.3467 3802.1685)"><tspan x="0" y="0" class="st32 st36 st39">L</tspan><tspan x="9.9" y="0" class="st32 st36 st39">eir</tspan><tspan x="32.5" y="0" class="st32 st36 st39">v</tspan><tspan x="42.7" y="0" class="st32 st36 st39">assbu</tspan></text>
 	</g>
 	<polygon class="st108" points="336.2,3754.2 372.6,3754.2 391.7,3740.3 409.7,3750.8 408.5,3779.3 363.2,3781.6 336.2,3780.8 	"/>
@@ -17641,6 +17673,7 @@ F+Iev/S5/wAI+L/B+/eP/a5x5H5T8R/S5/w//wCxP//Z" transform="matrix(0.24 0 0 0.2399 
 	<rect x="356" y="3761.1" class="st101" width="9.5" height="19.9"/>
 	<rect x="361.9" y="3728.5" class="st47" width="6.4" height="14.7"/>
 	<rect x="359.1" y="3729.4" class="st101" width="6.4" height="14.7"/>
+</g>
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 333.3066 3984.8096)"><tspan x="0" y="0" class="st97 st36 st39">S</tspan><tspan x="10.2" y="0" class="st97 st36 st39">t</tspan><tspan x="17.7" y="0" class="st97 st36 st39">o</tspan><tspan x="28.6" y="0" class="st97 st36 st39">r</tspan><tspan x="34.9" y="0" class="st97 st36 st39">ebjørn</tspan></text>
 	</g>
