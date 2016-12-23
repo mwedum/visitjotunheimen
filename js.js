@@ -11,22 +11,40 @@ var width = $( document ).width();
         svg.setAttribute("data", "Vinterkampanje.svg");
     }*/
     
+    var mouseX;
+    var mouseY;
+   /* $(document).mousemove( function(e) {
+       mouseX = e.pageX; 
+       mouseY = e.pageY;
+       console.log("Muser");
+    });*/
+
 $(window).on('load', function() {
-    var svgDoc = svg.contentDocument;
     
+    var svgDoc = svg.contentDocument;
+    $('#fossheim').load("bokser/fossheim.html" );
+   
     var fossheim = svgDoc.getElementById("fossheim");
-    //var a = svgDoc.getElementById("");
+    console.log(fossheim);
     
     fossheim.addEventListener("mousedown", function () {
-                    console.log("Fosshaaaim");
-                }, false);
+        $('#fossheim').hide();
+            document.onmousemove = function(e){
+                mouseX = e.pageX;
+                mouseY = e.pageY;
+            }
+
+            $('#test').css({'top':mouseY,'left':mouseX}).fadeIn('slow');
+            console.log("X - " + mouseX);
+            console.log("Y - " + mouseY);
+        }, false);
+                
+    $(fossheim).mouseover(function(){
+        
+    });
+    
+    $(fossheim).mouseout(function(){
+        $('#test').hide();
+    });
                       
 });
-
-function clickHandler() {
-    console.log("Klikk");
-}
-/*
-<g class="clickme" id="" type="image/svg+xml">		
-
-*/

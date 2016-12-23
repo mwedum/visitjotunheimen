@@ -1,3 +1,17 @@
+/* Modal Bokser START */
+.boks-wrapper {
+   border: 5px solid #009ee3;
+   width: 300px;
+   text-align: center;
+   background: white;
+}
+
+.boks-wrapper img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+/* Modal Bokser SLUTT */ 
 .main-wrapper {
     width: 100%;
     height: auto;
@@ -64,6 +78,10 @@ header {
 .topp {
     top: 13.5em;
     position: absolute; 
+}
+
+.absolute {
+    position: absolute;
 }
 #svgFile {
     position: relative;
