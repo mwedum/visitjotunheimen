@@ -12437,7 +12437,9 @@ j7d5/wDwQf/Z" transform="matrix(0.297 0 0 0.297 -1.1616 -1.1938)">
 	<g class="st0">
 		<text transform="matrix(1 0 0 1 878.2656 662.0342)"><tspan x="0" y="0" class="st37 st41 st42">S</tspan><tspan x="10.2" y="0" class="st37 st41 st42">t</tspan><tspan x="17.7" y="0" class="st37 st41 st42">o</tspan><tspan x="28.6" y="0" class="st37 st41 st42">r</tspan><tspan x="34.9" y="0" class="st37 st41 st42">ebjørn</tspan></text>
 	</g>
-
+	<g class="st0">
+		<text transform="matrix(1 0 0 1 399.7285 332.5029)"><tspan x="0" y="0" class="st37 st41 st45">J</tspan><tspan x="23.1" y="0" class="st37 st41 st45 st40">O</tspan><tspan x="78.6" y="0" class="st37 st41 st45">TUNHEIMEN</tspan></text>
+	</g>
 	<g class="st0">
 		<text transform="matrix(1 0 0 1 621.2886 672.6211)" class="st37 st41 st42">FINN DIN TUR</text>
 	</g>
@@ -19833,7 +19835,7 @@ C/f/2gAIAQICBj8ADf/aAAgBAwIGPwAN/9oACAEBAQY/ANDeFXBVwVcFXBVwceP/2Q==" transform=
 	<rect x="785.3" y="995.8" class="st64" width="18.2" height="18.3"/>
 	<polygon class="st137" points="1038.3,837.8 1096.2,837.8 1096.2,832.5 1075.6,819.6 1038.3,819.6 	"/>
         </g>
-<g id="fossheim" type="image/svg+xml">	
+<g class="clickme" id="fossheim" type="image/svg+xml">	
 <rect  x="1006.8" y="834.3" class="st64" width="81.3" height="47.2"/>	
 <path class="st137" d="M1010.6,877.7h73.8V838h-73.8V877.7z M1091.8,885.2h-88.8v-54.7h88.8V885.2z"/>
 	<polygon class="st137" points="1056.3,837.8 998.5,837.8 998.5,832.5 1019,819.6 1056.3,819.6 	"/>
