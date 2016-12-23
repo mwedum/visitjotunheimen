@@ -20,7 +20,7 @@ $(window).on('load', function() {
     console.log("SetAttribute done");
         
     svgDoc = svg.contentDocument;
-    fossheim = svgDoc.getElementById("sognefjellshytta1");
+    fossheim = svgDoc.getElementById("fossheim");
     console.log(fossheim);
     
     fossheim.addEventListener("mousedown", function () {

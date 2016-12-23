@@ -1,11 +1,85 @@
 .main-wrapper {
-   /* background-image: url("Vinterkampanje.svg");
-    background-repeat:no-repeat; */
+    width: 100%;
+    height: auto;
 }
 
-.btn {
-  stroke:#fff;
-  fill:#fff;
-  fill-opacity:0;
-  stroke-opacity:0;
+* {
+    font-family: Neo-sans;
 }
+
+.midtstillt-tekst {
+    text-align: center;
+}
+.seksjon {
+    height: 20em;
+    border: 1px solid black;
+}
+.hvit-tekst {
+    color: white;
+}
+.hyttenavn {
+    font-size: 24pt;
+}
+
+.tittel {
+    font-size: 50pt;
+    font-family: Neo-sans-std;
+    font-weight:lighter;
+}
+
+.brodtekst-18 {
+    font-size: 18pt;
+}
+
+.brodtekst-25 {
+    font-size: 25pt;
+}
+
+.mellomtittel-20 {
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.mellomtittel-25 {
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.alt {
+    display: block;
+    position: absolute; 
+}
+
+header {
+    border: 1px solid black;
+}
+.knapp {
+    font-size: 24pt;
+}
+
+.tittelMellomHytterMobil {
+    font-size: 24pt;
+}
+
+.topp {
+    top: 13.5em;
+    position: absolute; 
+}
+#svgFile {
+    position: relative;
+}
+
+/*
+Hyttenavn illustrasjon: Neo Sans Std - Regular - 24 pkt X
+Brødtekst: Neo Sans Std - Regular - 18 pkt/25 pkt X
+
+
+Knapp: Neo Sans Std - Regular - TT - 24 pkt
+Tittel mellom hytter (mobilside): Neo Sans Std - Regular - TT - 24 pkt
+
+Tittel: Neo Sans Std - Light - 50 pkt
+
+Mellomtittel: Neo Sans Std - Bold - 20 pkt/25 pkt
+
+
+*/
