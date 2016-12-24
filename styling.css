@@ -1,22 +1,47 @@
+/* BUNN OG OPP PLASSERING START*/
+
+.n1,.n2,.n3,.n4,.n5,.n6 {
+    border: 1px solid black;
+    height: 25%;
+    width: 100%;
+    margin-bottom: 10%;
+    
+}
+footer {
+    height: 25%;
+    width: 100%;
+}
+.midtskille {
+    height: 300%;
+    width: 100%;
+    bottom: 0px;
+    background: black;
+    opacity: 0.3;
+    border: 1px solid black;
+}
+/* BUNN OG OPP PLASSERING SLUTT*/
+
 /* Modal Bokser START */
 @media only screen and (max-width: 1224px) { 
     .boks-wrapper {
         width: 100%;
-        height: 100%;
      }
 }
 
+.clickme::on-hover {
+    background-color: #AAB2BD;
+}
 .boks-wrapper {
    border: 5px solid #009ee3;
    width: 100%;
    min-width: 300px;
+   height: auto;
    padding: 5px;
    text-align: center;
    background: white;
 }
 
 .boks-wrapper img {
-    width: 80%;
     height: auto;
     margin: auto;
 }
@@ -30,8 +55,13 @@
     font-family: Neo-sans;
 }
 
+g.st0 {
+    font-family: Neo-sans;
+}
+
 .midtstillt-tekst {
     text-align: center;
+    
 }
 .seksjon {
     height: 20em;
@@ -74,7 +104,6 @@
 }
 
 header {
-    border: 1px solid black;
 }
 .knapp {
     font-size: 24pt;
@@ -84,8 +113,12 @@ header {
     font-size: 24pt;
 }
 
+header {
+    width: 100%;
+}
 .topp {
-    top: 13.5em;
+    top: 10em;
+    margin: auto;
     position: absolute; 
 }
 
@@ -96,6 +129,33 @@ header {
     position: relative;
 }
 
+.midtstillt {
+    margin: auto;
+    border: 1px solid black;
+}
+.atti {
+    width: 80%;
+    margin: auto;
+}
+.venstre {
+    float:left;
+}
+.finndintur  {
+    margin-top: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+input {
+        background: transparent;
+        font-size:larger;
+    margin: 5px;
+    width: 200px;
+    padding: 7px 10px;
+    background: transparent;
+    border: solid 2px white;
+    color: white;
+}
 /*
 Hyttenavn illustrasjon: Neo Sans Std - Regular - 24 pkt X
 Brødtekst: Neo Sans Std - Regular - 18 pkt/25 pkt X

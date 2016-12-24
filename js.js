@@ -4,12 +4,12 @@ var width = $( document ).width();
     
     var svg = document.getElementById("svgFile"); 
     
-    //svg.setAttribute("data", "Mobil_vinterkampanje.svg");
-    if(width < 1024) {
+        svg.setAttribute("data", "Vinterkampanje.svg");
+   /* if(width < 1024) {
         svg.setAttribute("data", "Mobil_vinterkampanje.svg");
     } else {
         svg.setAttribute("data", "Vinterkampanje.svg");
-    }
+    }*/
 
 $(window).on('load', function() {
     
