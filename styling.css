@@ -1,24 +1,28 @@
 /* BUNN OG OPP PLASSERING START*/
-
-.n1,.n2,.n3,.n4,.n5,.n6 {
-    border: 1px solid black;
-    height: 25%;
-    width: 100%;
-    margin-bottom: 10%;
+.topp {
     
 }
-footer {
-    height: 25%;
-    width: 100%;
+
+
+.n0 {
+    width: 60%;
+    margin: auto;
 }
-.midtskille {
-    height: 300%;
-    width: 100%;
-    bottom: 0px;
-    background: black;
-    opacity: 0.3;
+.n1,.n2,.n3,.n4,.n5,.n6, .n7, .n8 {
     border: 1px solid black;
+    width: 100%;  
+    text-align: center;
 }
+
+.midtskille {
+    width: 100%;
+    top: 0px;
+    border: 1px solid black;
+    position: relative;
+    visibility: hidden;
+}
+
+
 /* BUNN OG OPP PLASSERING SLUTT*/
 
 /* Modal Bokser START */
@@ -48,7 +52,6 @@ footer {
 /* Modal Bokser SLUTT */ 
 .main-wrapper {
     width: 100%;
-    height: auto;
 }
 
 * {
@@ -103,8 +106,7 @@ g.st0 {
     position: absolute; 
 }
 
-header {
-}
+
 .knapp {
     font-size: 24pt;
 }
@@ -119,6 +121,7 @@ header {
 .topp {
    /* top: 0px;*/
     margin: auto;
+    width: 100%;
     position: absolute; 
 }
 
@@ -141,6 +144,7 @@ header {
     float:left;
 }
 .finndintur  {
+    
     margin-left: auto;
     margin-right: auto;
     display: block;

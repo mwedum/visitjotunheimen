@@ -3,20 +3,72 @@ var width = $( document ).width();
     console.log("Window - " + $( window ).width());
     
     var svg = document.getElementById("svgFile"); 
-    var factor = 0.4;
-    
+    //var factor = 0.4;
+    var factor = 0.102339181;
+    var midtskille;
+    var n1;
     
     //svg.setAttribute("data", "Vinterkampanje.svg");
     if(width < 1024) {
         factor = 0.678;
+        midtskille = width*6.474;
+        
         svg.setAttribute("data", "Mobil_vinterkampanje.svg");
     } else {
+        midtskille = width*1.60818713;
         svg.setAttribute("data", "Vinterkampanje.svg");
     }
 
 $(window).on('load', function() {
-    var calc = width * factor;
-    $(".topp").css('top',calc + "px");
+    var start = width * factor;
+    
+    $(".topp").css('top',start + "px");
+    
+    //$(".midtskille").css('height', midtskille + "px");
+    
+    //Nytt fra fjellet
+    var n1height = width * 0.32602;
+    $(".n1").css('top', midtskille+"px");
+    $(".n1").css('height', n1height+"px");
+    
+    //Samarbeidspart
+    //501px 1468 width KORREKT
+    var top = midtskille + n1height;
+    var n2height = width * 0.3662;
+    $(".n2").css('top', top+"px");
+    $(".n2").css('height', n2height+"px");
+    
+    //Guida turer
+    top += n2height;
+    var n3height = width * 0.595;
+    $(".n3").css('top', top+"px");
+    $(".n3").css('height', n3height+"px");
+    
+    top += n3height;
+    var n4height = width * 0.605;
+    $(".n4").css('top', top+"px");
+    $(".n4").css('height', n4height+"px");
+    
+    top += n4height;
+    var n5height = width * 0.61;
+    $(".n5").css('top', top+"px");
+    $(".n5").css('height', n5height+"px");
+    
+    top += n5height;
+    var n6height = width * 0.368;
+    $(".n6").css('top', top+"px");
+    $(".n6").css('height', n6height+"px");
+    
+    top += n6height;
+    var n7height = width * 0.45;
+    $(".n7").css('top', top+"px");
+    $(".n7").css('height', n7height+"px");
+    
+    top += n7height;
+    var n8height = width * 0.7;
+    $(".n8").css('top', top+"px");
+    $(".n8").css('height', n8height+"px");
+    
     
     
     var svgDoc = svg.contentDocument;
