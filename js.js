@@ -3,19 +3,24 @@ var width = $( document ).width();
     console.log("Window - " + $( window ).width());
     
     var svg = document.getElementById("svgFile"); 
+    var factor = 0.4;
     
-        svg.setAttribute("data", "Vinterkampanje.svg");
-   /* if(width < 1024) {
+    
+    //svg.setAttribute("data", "Vinterkampanje.svg");
+    if(width < 1024) {
+        factor = 0.678;
         svg.setAttribute("data", "Mobil_vinterkampanje.svg");
     } else {
         svg.setAttribute("data", "Vinterkampanje.svg");
-    }*/
+    }
 
 $(window).on('load', function() {
+    var calc = width * factor;
+    $(".topp").css('top',calc + "px");
+    
     
     var svgDoc = svg.contentDocument;
-    //$('#fossheim').load("bokser/fossheim.html" );
-
+    
     var fossheim = svgDoc.getElementById("fossheim");
     var nordal = svgDoc.getElementById("nordal");
     var fossberg = svgDoc.getElementById("fossberg");
