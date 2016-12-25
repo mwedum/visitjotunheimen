@@ -16,6 +16,21 @@
     height: auto;
     overflow: hidden;
 }
+.m-venstre {
+    margin-left: 10%;
+}
+
+.heltekst {
+    width: 60%;
+    margin: auto;
+}
+.m-hoyre {
+    margin-right: 10%;
+}
+.halvtekst {
+    width: 35%;
+    height: auto;
+}
 .halv {
     width:80%;
     height: auto;
