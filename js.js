@@ -1,7 +1,8 @@
-var width = $( document ).width();
+var width = $( document ).width()+20;
     console.log("Document -" + width);
     console.log("Window - " + $( window ).width());
     
+    var bildecounter = 1;
     var svg = document.getElementById("svgFile"); 
     //var factor = 0.4;
     var factor = 0.102339181;
@@ -65,7 +66,7 @@ $(window).on('load', function() {
     $(".n7").css('height', n7height+"px");
     
     top += n7height;
-    var n8height = width * 0.7;
+    var n8height = width * 0.4861;
     $(".n8").css('top', top+"px");
     $(".n8").css('height', n8height+"px");
     
@@ -119,9 +120,30 @@ $(window).on('load', function() {
         skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
     }
 
+    //$("#venstrepil").addEventListener("mousedown", function () { bildegalleri(-1); }, false);
+    //$("#hoyrepil").addEventListener("mousedown", function () { bildegalleri(1); }, false);
+    $( "#hoyrepil" ).click(function() { bildegalleri(1);});
+    $( "#venstrepil" ).click(function() { bildegalleri(-1);});
+
+    
+
 });
 
 function showHytte(hytte) {
     $('#myModal').modal('show');
     $('#modalmobil').load(hytte);
 }
+
+//hoyrevenstre inneholder enten -1 eller +1;
+function bildegalleri(hoyrevenstre) {
+    var bilder = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg" ];
+    bildecounter += hoyrevenstre;
+    
+    if(bildecounter >= bilder.length) {
+        bildecounter = 1;
+    } else if(bildecounter <= 0) {
+        bildecounter = bilder.length;
+    }
+    $('#bildegalleri').attr("src", bilder[bildecounter]);
+}
+
