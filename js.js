@@ -4,28 +4,26 @@ var width = $( document ).width()+20;
     
     var bildecounter = 1;
     var svg = document.getElementById("svgFile"); 
-    //var factor = 0.4;
     var factor = 0.102339181;
     var midtskille;
     var n1;
     
-    //svg.setAttribute("data", "Vinterkampanje.svg");
-    if(width < 1024) {
+    svg.setAttribute("data", "Mobil_vinterkampanje.svg");
+    /*if(width < 1024) {
         factor = 0.678;
         midtskille = width*6.474;
-        
         svg.setAttribute("data", "Mobil_vinterkampanje.svg");
     } else {
         midtskille = width*1.60818713;
         svg.setAttribute("data", "Vinterkampanje.svg");
-    }
+    }*/
 
 $(window).on('load', function() {
     var start = width * factor;
     
     $(".topp").css('top',start + "px");
-    
-    //$(".midtskille").css('height', midtskille + "px");
+     
+    $(".midtskille").css('height', midtskille + "px");
     
     //Nytt fra fjellet
     var n1height = width * 0.32602;
