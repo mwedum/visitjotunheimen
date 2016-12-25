@@ -1,4 +1,4 @@
-var width = $( document ).width()+20;
+var width = $( document ).width();
     console.log("Document -" + width);
     console.log("Window - " + $( window ).width());
     
@@ -8,16 +8,17 @@ var width = $( document ).width()+20;
     var midtskille;
     var n1;
     var mobile = false;
-    //svg.setAttribute("data", "Mobil_vinterkampanje.svg");
-    //if(width < 1024) {
-        factor = 0.214655811;
+
+    if(width < 1024) {
+        factor = 0.254655811;
         midtskille = width*6.935;
         mobile = true;
         svg.setAttribute("data", "Mobil_vinterkampanje.svg");
-   /* } else {
+    } else {
+        width += 20;
         midtskille = width*1.60818713;
         svg.setAttribute("data", "Vinterkampanje.svg");
-    } */
+    }
 
 $(window).on('load', function() {
     var start = width * factor;
@@ -57,21 +58,21 @@ $(window).on('load', function() {
     
     top += n4height;
     var n5height = width * 0.61;
-    if(mobile == true) { n5height = width * 0.65;}
+    if(mobile == true) { n5height = width * 0.70;}
     $(".n5").css('top', top+"px");
     $(".n5").css('height', n5height+"px");
     
     
     top += n5height;
     var n6height = width * 0.368;
-    if(mobile == true) { n6height = width * 1.1;}
+    if(mobile == true) { n6height = width * 0.8;}
 
     $(".n6").css('top', top+"px");
     $(".n6").css('height', n6height+"px");
     
     top += n6height;
     var n7height = width * 0.45;
-    if(mobile == true) {n7height = width * 0.8;}
+    if(mobile == true) {n7height = width * 0.7;}
     $(".n7").css('top', top+"px");
     $(".n7").css('height', n7height+"px");
     
@@ -142,6 +143,8 @@ $(window).on('load', function() {
 function showHytte(hytte) {
     $('#myModal').modal('show');
     $('#modalmobil').load(hytte);
+    $('#modalmobil').animate({ 'zoom': 2}, 400);
+
 }
 
 //hoyrevenstre inneholder enten -1 eller +1;
