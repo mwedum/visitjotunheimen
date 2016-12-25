@@ -1,5 +1,5 @@
-var width = $( document ).width();
-    console.log("Document -" + width);
+var width = $( window ).width();
+console.log("Document -" + width);
     console.log("Window - " + $( window ).width());
     
     var bildecounter = 1;
@@ -12,7 +12,11 @@ var width = $( document ).width();
 
     if(width < 1024) {
         factor = 0.254655811;
-        midtskille = width*6.935;
+        //770px
+        midtskille = width*7.08;
+        //500px
+        //4515/638
+        //midtskille = width * 6.17;
         mobile = true;
         
         svg.setAttribute("data", "Mobil_vinterkampanje.svg");
@@ -30,7 +34,6 @@ var width = $( document ).width();
         
         
     } else {
-        width += 20;
         midtskille = width*1.60818713;
         svg.setAttribute("data", "Vinterkampanje.svg");
     }

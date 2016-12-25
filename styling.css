@@ -79,7 +79,7 @@ width: 100%;
     border: 1px solid black;
     position: absolute;
     opacity: 0.7;
-    display: none;
+    background: black;
 }
 
 
