@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1224px) { 
+    .boks-wrapper {
+        width: 100%;
+     }
+}
+
+.desktop-only {
+    display: none;
+}
+
 .pil {
     position: relative;
     margin-top: 20%;
@@ -64,19 +74,16 @@
     width: 100%;
     top: 0px;
     border: 1px solid black;
-    position: relative;
-    visibility: hidden;
+    position: absolute;
+    background: black;
+    opacity: 0.7;
 }
 
 
 /* BUNN OG OPP PLASSERING SLUTT*/
 
 /* Modal Bokser START */
-@media only screen and (max-width: 1224px) { 
-    .boks-wrapper {
-        width: 100%;
-     }
-}
+
 
 .clickme::on-hover {
     background-color: #AAB2BD;

@@ -7,16 +7,17 @@ var width = $( document ).width()+20;
     var factor = 0.102339181;
     var midtskille;
     var n1;
-    
-    svg.setAttribute("data", "Mobil_vinterkampanje.svg");
-    /*if(width < 1024) {
-        factor = 0.678;
-        midtskille = width*6.474;
+    var mobile = false;
+    //svg.setAttribute("data", "Mobil_vinterkampanje.svg");
+    //if(width < 1024) {
+        factor = 0.214655811;
+        midtskille = width*6.935;
+        mobile = true;
         svg.setAttribute("data", "Mobil_vinterkampanje.svg");
-    } else {
+   /* } else {
         midtskille = width*1.60818713;
         svg.setAttribute("data", "Vinterkampanje.svg");
-    }*/
+    } */
 
 $(window).on('load', function() {
     var start = width * factor;
@@ -25,8 +26,10 @@ $(window).on('load', function() {
      
     $(".midtskille").css('height', midtskille + "px");
     
+    var n1height;
     //Nytt fra fjellet
-    var n1height = width * 0.32602;
+    if(mobile == true) {n1height = width * 0.6; } 
+    else { n1height = width * 0.32602;}
     $(".n1").css('top', midtskille+"px");
     $(".n1").css('height', n1height+"px");
     
@@ -34,32 +37,41 @@ $(window).on('load', function() {
     //501px 1468 width KORREKT
     var top = midtskille + n1height;
     var n2height = width * 0.3662;
+    if(mobile == true) {  n2height = width * 1.15  ;}
     $(".n2").css('top', top+"px");
     $(".n2").css('height', n2height+"px");
     
     //Guida turer
     top += n2height;
     var n3height = width * 0.595;
+    if(mobile == true) {n3height = width* 1.15;}
     $(".n3").css('top', top+"px");
     $(".n3").css('height', n3height+"px");
     
+    //Turbeskrivingar
     top += n3height;
     var n4height = width * 0.605;
+    if(mobile == true) { n4height = width * 1.15;}
     $(".n4").css('top', top+"px");
     $(".n4").css('height', n4height+"px");
     
     top += n4height;
     var n5height = width * 0.61;
+    if(mobile == true) { n5height = width * 0.65;}
     $(".n5").css('top', top+"px");
     $(".n5").css('height', n5height+"px");
     
+    
     top += n5height;
     var n6height = width * 0.368;
+    if(mobile == true) { n6height = width * 1.1;}
+
     $(".n6").css('top', top+"px");
     $(".n6").css('height', n6height+"px");
     
     top += n6height;
     var n7height = width * 0.45;
+    if(mobile == true) {n7height = width * 0.8;}
     $(".n7").css('top', top+"px");
     $(".n7").css('height', n7height+"px");
     
