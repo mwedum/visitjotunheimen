@@ -25,6 +25,9 @@ width: 100%;
 
 }
 
+#mob {
+    display: none;
+}
 #bildegalleri {
     width: 73%;
     height: auto;

@@ -33,11 +33,14 @@ console.log("Document -" + width);
         $(".topp").css('margin-left',"0% !important");
         $(".m-venstre").css('margin',"auto");
          $(".venstre").css('float',"none");
+         $("h1").css('margin-bottom',"40px");
+         $("h1").css('margin-top',"40px");
+         $("#mob").css('display', "block");
 
-        
+        $(".ned-mobil").css('margin-top',"9%");
         $("p.hoyre-tekst").css('text-align',"left");
         $(".tittel").css('font-size', "40pt");
-        $("p").css('font-size',"16pt");
+       // $("p").css('font-size',"16pt");
         $("#mobileonly").css('display',"block");
                 var finndinheight = width * 0.19803849;
 
