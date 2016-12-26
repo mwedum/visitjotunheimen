@@ -155,16 +155,20 @@ g.st0 {
 
 .tittel{
     font-size: 50pt;
-    font-family: Neo;
+    font-family: Neo-sans;
     text-align: center;
 }
 h1 {
-    font-family: Neo;
+    font-family: Neo-sans;
     font-size: 50pt;
     font-weight:lighter;
     margin-bottom: 25px;
 }
 
+h1, tittel {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 .brodtekst-18 {
     font-size: 18pt;
 }
@@ -185,11 +189,11 @@ h1 {
 
 
 p.hoyre-tekst {
-  text-align:right;
+  text-align:left;
 }
 p,ul,li,input {
     font-size: 18pt;
-    font-family: Neo;
+    font-family: Neo-sans;
     
 }
 .alt {

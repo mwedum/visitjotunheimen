@@ -13,7 +13,7 @@ console.log("Document -" + width);
     if(width < 1024) {
         factor = 0.184655811;
         //770px
-        midtskille = width*7.18;
+        midtskille = width*7.2;
         //500px
         //4515/638
         //midtskille = width * 6.17;
@@ -39,8 +39,8 @@ console.log("Document -" + width);
 
         $(".ned-mobil").css('margin-top',"9%");
         $("p.hoyre-tekst").css('text-align',"left");
-        $(".tittel").css('font-size', "40pt");
-       // $("p").css('font-size',"16pt");
+        $(".tittel").css('font-size', "35pt");
+        $("p").css('font-size',"14pt");
         $("#mobileonly").css('display',"block");
                 var finndinheight = width * 0.19803849;
 
