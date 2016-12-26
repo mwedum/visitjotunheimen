@@ -29,29 +29,34 @@ console.log("Document -" + width);
         $(".heltekst").css('margin',"auto");
         
         $(".wrapper").css('width',"100%");
-        $(".n0").css('width',"95%");
+        $(".n0").css('width',"90%");
         $(".topp").css('margin-left',"0% !important");
-        $(".finndintur").css('margin-left',"15%");
-        $(".m-venstre").css('margin-left',"5%");
-        $(".m-venstre").css('margin-right',"5%");
+        $(".m-venstre").css('margin',"auto");
+         $(".venstre").css('float',"none");
+
         
         $("p.hoyre-tekst").css('text-align',"left");
         $(".tittel").css('font-size', "40pt");
         $("p").css('font-size',"16pt");
         $("#mobileonly").css('display',"block");
-        
-        
+                var finndinheight = width * 0.19803849;
+
+        $(".finndintur").css('margin-left',finndinheight*1.0 +"px" );
+        $(".fottekst").css('margin-left',finndinheight*1.1 +"px" );   
     } else {
         //200 1351- finn din tur boks.
         var finndinheight = width * 0.19803849;
         midtskille = (width+30)*1.60818713;
         var guidatur = width * 0.17;
+        $(".input-plassering").css('margin-top',guidatur +"px" );
+
         svg.setAttribute("data", "Vinterkampanje.svg");
-    }
+        $(".finndintur").css('margin-left',finndinheight*1.1 +"px" );
         $(".finndintur").css('margin-top',finndinheight +"px" );
 
-        $(".finndintur").css('margin-left',finndinheight*0.7 +"px" );
-        $(".input-plassering").css('margin-top',guidatur +"px" );
+    }
+
+
 
 $(window).on('load', function() {
     var start = width * factor;
