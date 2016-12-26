@@ -52,9 +52,9 @@ width: 100%;
     height: auto;
 }
 .halvbilde {
-    width: 41%;
+    max-width: 42%;
     margin-right: 7%;
-    max-height: 500px;
+    height: 400px;
     height: auto;
 }
 
@@ -62,14 +62,16 @@ width: 100%;
 /* BUNN OG OPP PLASSERING START*/
 .n0 {
     width: 60%;
+    margin-left: 27%;
     margin: auto;
 }
-.n1,.n2,.n3,.n4,.n5,.n6, .n7 {
+.n1,.n2, .n7 {
     width: 100%;  
     text-align: center;
 }
 
-.n8 {
+
+.n8, .n3, .n4,.n5,.n6 {
     width: 100%;
 }
 
@@ -102,7 +104,6 @@ width: 100%;
 }
 
 .boks-wrapper img {
-    height: auto;
     max-width: 300px;
     margin: auto;
 }
@@ -111,8 +112,19 @@ width: 100%;
     width: 100%;
 }
 
-* {
+@font-face {
     font-family: Neo-sans;
+    src: url(neosansstd-regular-opentype.otf);
+}
+@font-face {
+    font-family: Neo-sans-bold;
+    src: url(ufonts.com_neosansstd-bold-opentype.otf);
+}
+@font-face {
+    font-family: Neo-sans-light;
+    src: url(ufonts.com_neosans-light-opentype.otf);
+}
+* {
     line-height: 1.2;
 }
 
@@ -135,10 +147,16 @@ g.st0 {
     font-size: 24pt;
 }
 
-.tittel {
+.tittel{
     font-size: 50pt;
-    font-family: Neo-sans-std;
+    font-family: Neo;
+    text-align: center;
+}
+h1 {
+    font-family: Neo;
+    font-size: 50pt;
     font-weight:lighter;
+    margin-bottom: 25px;
 }
 
 .brodtekst-18 {
@@ -155,13 +173,18 @@ g.st0 {
 }
 
 .mellomtittel-25 {
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 25pt;
 }
 
 
-p,ul,li {
+p.hoyre-tekst {
+  text-align:right;
+}
+p,ul,li,input {
     font-size: 18pt;
+    font-family: Neo;
+    
 }
 .alt {
     display: block;
@@ -180,10 +203,10 @@ p,ul,li {
 header {
     width: 100%;
 }
+
 .topp {
    /* top: 0px;*/
-    margin: auto;
-    width: 100%;
+   width: 100%;
     position: absolute; 
 }
 
@@ -216,13 +239,46 @@ header {
     margin-right: auto;
     display: block;
 }
-input {
-        background: transparent;
+.nytt-input {
     margin: 5px;
-    width: 5em;
-    padding: 3px 3px;
+    width: 100%;
+    max-width: 350px;
+    padding: 7px 9px;
+    margin-right: 15px;
+    border-radius: 3px;
+    border: solid 1px #003d5a;
+    color: #003d5a;
+}
+.nytt-input-send {
+    background-color: #003d5a;
+    color: white;
+    border-radius: 3px;
+    width: 200px;
+}
+.guida-input {
     background: transparent;
-    border: solid 2px white;
+    margin: 5px;
+    width: 90%;
+    padding: 7px 9px;
+    background: transparent;
+    border-radius: 3px;
+    border: solid 1px #003d5a;
+    color: #003d5a;
+}
+
+.input-width1 {
+    width: 12em;
+}
+.input-width2 {
+    width: 100%;
+}
+.transparent-input {
+     background: transparent;
+    margin: 5px;
+    padding: 7px 9px;
+    background: transparent;
+    border-radius: 3px;
+    border: solid 1px white;
     color: white;
 }
 

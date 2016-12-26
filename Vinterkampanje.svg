@@ -14740,11 +14740,11 @@ C/f/2gAIAQICBj8ADf/aAAgBAwIGPwAN/9oACAEBAQY/ANDeFXBVwVcFXBVwceP/2Q==" transform=
 	<rect x="833.4" y="929.7" class="st136" width="84.4" height="8.6"/>
 	<rect x="850.7" y="926.9" class="st136" width="49.6" height="7"/>
         </g>
-	<g class="st0">
-		<text transform="matrix(1 0 0 1 1048.9863 2231.8169)"><tspan x="0" y="0" class="st43 st41 st42">Høgruta i J</tspan><tspan x="91.7" y="0" class="st43 st41 st42">o</tspan><tspan x="102" y="0" class="st43 st41 st42">tunheimen</tspan></text>
+	<g class="st0" id="hogruta">
+		<text transform="matrix(1 0 0 1 1048.9863 2231.8169)"><tspan x="0" y="0" class="st43 st41 st42">Høgruta i Jotunheimen</tspan></text>
 	</g>
 	<g class="st0">
-		<text transform="matrix(1 0 0 1 1048.9863 2265.0571)"><tspan x="0" y="0" class="st37 st41 st42">T</tspan><tspan x="11" y="0" class="st37 st41 st42">urbeskri</tspan><tspan x="81.7" y="0" class="st37 st41 st42">v</tspan><tspan x="91.9" y="0" class="st37 st41 st42">elser /Guid</tspan><tspan x="185.9" y="0" class="st37 st41 st42">a</tspan><tspan x="195.8" y="0" class="st37 st41 st42">tu</tspan><tspan x="214.6" y="0" class="st37 st41 st42">r</tspan><tspan x="221" y="0" class="st37 st41 st42">er</tspan></text>
+		<text transform="matrix(1 0 0 1 1048.9863 2265.0571)"><tspan x="0" y="0" class="st37 st41 st42">Turbeskrivelser/Guidaturer</tspan></text>
 	</g>
 	<g class="st0">
 		<defs>

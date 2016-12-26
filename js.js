@@ -11,9 +11,9 @@ console.log("Document -" + width);
     var mobile = false;
 
     if(width < 1024) {
-        factor = 0.254655811;
+        factor = 0.184655811;
         //770px
-        midtskille = width*7.08;
+        midtskille = width*7.18;
         //500px
         //4515/638
         //midtskille = width * 6.17;
@@ -25,19 +25,33 @@ console.log("Document -" + width);
         //$(".venstre").css('float',"none");
         $("#bildegalleri").css('width',"63%");
         $(".halvtekst").css('width',"80%");
-        $(".heltekst").css('width',"100%");
+        $(".heltekst").css('width',"95%");
+        $(".heltekst").css('margin',"auto");
+        
         $(".wrapper").css('width',"100%");
-        $(".n0").css('width',"80%");
+        $(".n0").css('width',"95%");
+        $(".topp").css('margin-left',"0% !important");
+        $(".finndintur").css('margin-left',"15%");
+        $(".m-venstre").css('margin-left',"5%");
+        $(".m-venstre").css('margin-right',"5%");
+        
+        $("p.hoyre-tekst").css('text-align',"left");
         $(".tittel").css('font-size', "40pt");
         $("p").css('font-size',"16pt");
         $("#mobileonly").css('display',"block");
         
         
     } else {
-        midtskille = width*1.60818713;
+        //200 1351- finn din tur boks.
+        var finndinheight = width * 0.19803849;
+        midtskille = (width+30)*1.60818713;
+        var guidatur = width * 0.17;
         svg.setAttribute("data", "Vinterkampanje.svg");
     }
-    $(".finndintur").css('margin-top',"20%");
+        $(".finndintur").css('margin-top',finndinheight +"px" );
+
+        $(".finndintur").css('margin-left',finndinheight*0.7 +"px" );
+        $(".input-plassering").css('margin-top',guidatur +"px" );
 
 $(window).on('load', function() {
     var start = width * factor;
@@ -70,7 +84,7 @@ $(window).on('load', function() {
     
     //Turbeskrivingar
     top += n3height;
-    var n4height = width * 0.605;
+    var n4height = width * 0.62;
     if(mobile == true) { n4height = width * 1.15;}
     $(".n4").css('top', top+"px");
     $(".n4").css('height', n4height+"px");
@@ -84,14 +98,14 @@ $(window).on('load', function() {
     
     top += n5height;
     var n6height = width * 0.368;
-    if(mobile == true) { n6height = width * 0.8;}
+    if(mobile == true) { n6height = width * 0.85;}
 
     $(".n6").css('top', top+"px");
     $(".n6").css('height', n6height+"px");
     
     top += n6height;
     var n7height = width * 0.45;
-    if(mobile == true) {n7height = width * 0.7;}
+    if(mobile == true) {n7height = width * 0.85;}
     $(".n7").css('top', top+"px");
     $(".n7").css('height', n7height+"px");
     
@@ -104,6 +118,7 @@ $(window).on('load', function() {
     
     var svgDoc = svg.contentDocument;
     
+    var hogruta = svgDoc.getElementById("hogruta");
     var fossheim = svgDoc.getElementById("fossheim");
     var nordal = svgDoc.getElementById("nordal");
     var fossberg = svgDoc.getElementById("fossberg");
@@ -129,7 +144,7 @@ $(window).on('load', function() {
         turtagro = svgDoc.getElementById("turtagro");
     }
 
-    
+        hogruta.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
     fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
     nordal.addEventListener("mousedown", function () { showHytte("bokser/nordal.html"); }, false);
     fossberg.addEventListener("mousedown", function () { showHytte("bokser/fossberg.html"); }, false);
@@ -169,7 +184,7 @@ $(window).on('load', function() {
 function showHytte(hytte) {
     $('#myModal').modal('show');
     $('#modalmobil').load(hytte);
-    $('#modalmobil').animate({ 'zoom': 2}, 400);
+    $('#modalmobil').animate({ 'zoom': 1.4}, 400);
 
 }
 
