@@ -10,7 +10,7 @@ console.log("Document -" + width);
     var n1;
     var mobile = false;
 
-    if(width < 1024) {
+    /*if(width < 1024) {
         factor = 0.184655811;
         //770px
         midtskille = width*7.2;
@@ -46,7 +46,7 @@ console.log("Document -" + width);
 
         $(".finndintur").css('margin-left',finndinheight*1.0 +"px" );
         $(".fottekst").css('margin-left',finndinheight*1.1 +"px" );   
-    } else {
+    } else {*/
         //200 1351- finn din tur boks.
         var finndinheight = width * 0.19803849;
         midtskille = (width+30)*1.60818713;
@@ -57,7 +57,7 @@ console.log("Document -" + width);
         $(".finndintur").css('margin-left',finndinheight*1.1 +"px" );
         $(".finndintur").css('margin-top',finndinheight +"px" );
 
-    }
+  //  }
 
 
 
@@ -146,11 +146,11 @@ $(window).on('load', function() {
     var krossbu = svgDoc.getElementById("krosbu");
     var sognefjellshytta2;
     var skilt;
-    if(width >= 1024) {
+  /*  if(width >= 1024) {
         sognefjellshytta2 = svgDoc.getElementById("sognefjellshytta2");
         skilt = svgDoc.getElementById("skilt");
         turtagro = svgDoc.getElementById("turtagro");
-    }
+    }*/
 
         hogruta.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
     fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
@@ -169,11 +169,11 @@ $(window).on('load', function() {
     memurbu.addEventListener("mousedown", function () { showHytte("bokser/memurbu.html"); }, false);
     gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
     krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
-    if(width >= 1024) {
+   /* if(width >= 1024) {
         sognefjellshytta2.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
            turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
         skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
-    }
+    }*/
 
     //$("#venstrepil").addEventListener("mousedown", function () { bildegalleri(-1); }, false);
     //$("#hoyrepil").addEventListener("mousedown", function () { bildegalleri(1); }, false);
