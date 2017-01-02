@@ -21,6 +21,16 @@ console.log("Document -" + width);
     $(".finndintur").css('margin',"auto" );
     $(".finndintur").css('margin-top', width * 0.107942265 +"px" );
     
+    if(width < 1024) {
+        console.log("swag");
+        $("p").css('font-size',"14pt" );
+        $("h1").css('font-size',"50pt" );
+        $(".mellomtittel").css('font-size',"25pt" );
+        $(".opp").css('margin',"auto" );
+        $(".n0").css('width',"100%" );
+        $(".finndintur").css('margin-top', width * 0.05042265 +"px" );
+
+    }
 svg.addEventListener('load', function(){
     var start = width * factor;
     
