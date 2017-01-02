@@ -45,6 +45,10 @@ p, input { font-size: 18pt; }
     margin: 2% 0 0 0;
 }
 
+.boks-wrapper h2 {
+    font-size: 25pt;
+    font-family: Neo-sans-regular;
+}
 .margin  {
     margin: 20px 0 30px 0;
 }
