@@ -3,6 +3,16 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1366 7631" style="enable-background:new 0 0 1366 7631;" xml:space="preserve">
 <style type="text/css">
+    @font-face {
+        font-family: Neo-sans-regular;
+        src: url(fonter/NeoSansStd-Regular.otf);
+        }
+    
+    @font-face {
+        font-family: Neo-sans-bold;
+        src: url(fonter/NeoSansStd-Bold.otf);
+    }
+    
     .clickme:hover {
         opacity: 0.3;
     }
@@ -44,10 +54,10 @@
 	.st35{clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;}
 	.st36{clip-path:url(#SVGID_2_);fill:none;stroke:#003D5A;}
 	.st37{fill:#FFFFFF;}
-	.st38{font-family:'NeoSansStd-Light';}
+	.st38{font-family:'Neo-sans-light';}
 	.st39{font-size:49.9808px;}
 	.st40{letter-spacing:-4;}
-	.st41{font-family:'NeoSansStd-Regular';}
+	.st41{font-family:'Neo-sans-regular';}
 	.st42{font-size:20px;}
 	.st43{fill:#911A10;}
 	.st44{font-size:18.2777px;}
@@ -112,7 +122,7 @@
 	.st93{clip-path:url(#SVGID_100_);fill:#497DB1;}
 	.st94{letter-spacing:-2;}
 	.st95{font-size:18px;}
-	.st96{font-family:'NeoSansStd-Bold';}
+	.st96{font-family:'Neo-sans-bold';}
 	.st97{clip-path:url(#SVGID_104_);fill:none;stroke:#FFFFFF;}
 	.st98{clip-path:url(#SVGID_104_);fill:#FFFFFF;}
 	.st99{clip-path:url(#SVGID_106_);}
@@ -268,7 +278,7 @@
 	.st248{clip-path:url(#SVGID_276_);fill:#FFFFFF;}
 	.st249{clip-path:url(#SVGID_2_);fill:#E2E2EC;}
 	.st250{clip-path:url(#SVGID_278_);fill:#BCC1C6;}
-	.st251{font-family:'NeoSansStd-Medium';}
+	.st251{font-family:'Neo-sans-bold';}
 	.st252{clip-path:url(#SVGID_280_);fill:#66300A;}
 	.st253{clip-path:url(#SVGID_280_);fill:#864008;}
 	.st254{clip-path:url(#SVGID_280_);fill:#004520;}

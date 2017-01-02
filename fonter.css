@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Neo-sans-regular;
+    src: url(fonter/NeoSansStd-Regular.otf);
+}
+
+@font-face {
+    font-family: Neo-sans-light;
+    src: url(fonter/NeoSansStd-Light.otf);
+}
+
+@font-face {
+    font-family: Neo-sans-medium;
+    src: url(fonter/NeoSansStd-Medium.otf);
+}
+
+@font-face {
+    font-family: Neo-sans-bold;
+    src: url(fonter/NeoSansStd-Bold.otf);
+}
+
+
+* {
+    line-height: 1.2;
+}
+
+.mellomtittel, h2 {
+    font-family: Neo-sans-light;
+}
+
+h1, .tittel {
+    font-family: Neo-sans-regular;
+}
+
+.brodtekst, .hyttenavn, .btn, p, input {
+    font-family: Neo-sans-regular;
+}
+
+h1, .tittel { font-size: 75pt; }
+h2,.mellomtittel{ font-size: 50pt; }
+.brodtekst { font-size: 25pt; }
+.hyttenavn, .btn, .hyttetitlermobil { font-size: 24pt; }
+p, input { font-size: 18pt; }
+
+.opp {
+    margin: 5% 0 0 0;
+}
+
+.margin  {
+    margin: 20px 0 30px 0;
+}
+
+p  {
+    margin: 0 0 0 0;
+}
+
+.margin-ned-storre {
+    margin-bottom: 30px;
+}
+.dyprod {
+    color: #921a10;
+}
