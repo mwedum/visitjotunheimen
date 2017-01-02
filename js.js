@@ -129,6 +129,7 @@ svg.addEventListener('load', function(){
     memurbu.addEventListener("mousedown", function () { showHytte("bokser/memurbu.html"); }, false);
     gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
     krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
+    
     if(width >= 1024) {
         sognefjellshytta2.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
         turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
@@ -144,9 +145,6 @@ svg.addEventListener('load', function(){
         $( "#hoyrepil-partner" ).click(function() { bildegalleripartner(1);});
         $( "#venstrepil-partner" ).click(function() { bildegalleripartner(-1);});
     }
-
-    
-
 });
 
 function showHytte(hytte) {
@@ -158,20 +156,20 @@ function showHytte(hytte) {
 
 //hoyrevenstre inneholder enten -1 eller +1;
 function bildegalleri(hoyrevenstre) {
-    var bilder = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg" ];
     bildecounter += hoyrevenstre;
     
-    if(bildecounter >= bilder.length) {
+    if(bildecounter >= 12) {
         bildecounter = 1;
     } else if(bildecounter <= 0) {
-        bildecounter = bilder.length;
+        bildecounter = 12;
     }
-    $('#bildegalleri').attr("src", bilder[bildecounter]);
+    $('#bildegalleri').attr("src", "img/" + bildecounter + ".jpg");
 }
 
 function bildegalleripartner(hoyrevenstre) {
     var bilder = ["logoer/vpg.jpg","logoer/fjellogfritid.png","logoer/dnt.png"];
     bildecounterp += hoyrevenstre;
+
     
     if(bildecounterp > bilder.length) {
         bildecounterp = 0;

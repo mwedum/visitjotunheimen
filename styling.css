@@ -14,34 +14,32 @@ width: 100%;
 #mobileonly {
     display: none;
 }
-.pil {
-    position: relative;
-    margin-top: 20%;
-    font-size: 70pt;
-    padding: 15px 15px;
-}
-.pil img {
-        width: 50px;
-
-}
 
 #mob {
     display: none;
 }
 
+#venstrepil, #hoyrepil {
+    height: 452px;
+    position: relative;
+    margin-top: 25%;
+}
+#venstrepil img, #hoyrepil img {
+    height: 70px;
+}
 #bildegalleriwrapper {
     height: 452px;
     width: 452px;
-    border: 1px solid black;
     overflow: hidden;
     margin: auto;
 }
 
 #bildegalleri {
-    height: 452px;
+    max-height: 452px;
 }
+
 .wrapper {
-    width: 75%;
+    width: 670px;
     margin: auto;
     height: auto;
     overflow: hidden;
@@ -81,7 +79,6 @@ width: 100%;
 /* BUNN OG OPP PLASSERING START*/
 .n0 {
     width: 50%;
-    border: 1px solid black;
     margin: auto;
 }
 .n1,.n2, .n7 {
