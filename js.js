@@ -29,6 +29,9 @@ console.log("Document -" + width);
         $(".opp").css('margin',"auto" );
         $(".n0").css('width',"100%" );
         $(".finndintur").css('margin-top', width * 0.05042265 +"px" );
+        $(".halvbilde").css('width',"300px" );
+        $(".bildegalleri").css('height',"300px" );
+        
 
     }
 svg.addEventListener('load', function(){
@@ -76,14 +79,16 @@ svg.addEventListener('load', function(){
     
     top += n5height;
     var n6height = width * 0.368;
-    if(mobile == true) { n6height = width * 0.85;}
-
+    mobile = true;
+    if(mobile == true) { top -= 80;}
     $(".n6").css('top', top+"px");
     $(".n6").css('height', n6height+"px");
-    
+    if(mobile == true) { top += 80;}
+    mobile = false;
     top += n6height;
     var n7height = width * 0.45;
-    if(mobile == true) {n7height = width * 0.85;}
+    mobile = true;
+    if(mobile == true) {n7height = width * 0.45;}
     $(".n7").css('top', top+"px");
     $(".n7").css('height', n7height+"px");
     
@@ -116,13 +121,40 @@ svg.addEventListener('load', function(){
     var krossbu = svgDoc.getElementById("krosbu");
     var sognefjellshytta2;
     var skilt;
-    if(width >= 1024) {
+    var surtningt = svgDoc.getElementById("surtningt");
+    var surtning = svgDoc.getElementById("surtning");
+    var hog1 = svgDoc.getElementById("hog1");
+    var hog2 = svgDoc.getElementById("hog2");
+    var bess1 = svgDoc.getElementById("bess1");
+    var bess2 = svgDoc.getElementById("bess2");
+    var glitter1 = svgDoc.getElementById("glitter1");
+    var glitter2 = svgDoc.getElementById("glitter2");
+    var gal1 = svgDoc.getElementById("gal1");
+    var gal2 = svgDoc.getElementById("gal2");
+    var stor1 = svgDoc.getElementById("store1");
+    var stor2 = svgDoc.getElementById("store2");
+
+   // if(width >= 1024) {
         sognefjellshytta2 = svgDoc.getElementById("sognefjellshytta2");
         skilt = svgDoc.getElementById("skilt");
         turtagro = svgDoc.getElementById("turtagro");
-    }
+    //}
+    stor1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    stor2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
 
+    glitter1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    glitter2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    gal1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    gal2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+
+    surtningt.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    surtning.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
     hogruta.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    hog1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    hog2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    bess1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    bess2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    
     fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
     nordal.addEventListener("mousedown", function () { showHytte("bokser/nordal.html"); }, false);
     fossberg.addEventListener("mousedown", function () { showHytte("bokser/fossberg.html"); }, false);
@@ -140,11 +172,11 @@ svg.addEventListener('load', function(){
     gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
     krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
     
-    if(width >= 1024) {
+  //  if(width >= 1024) {
         sognefjellshytta2.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
         turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
         skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
-    }
+ //   }
 
     //$("#venstrepil").addEventListener("mousedown", function () { bildegalleri(-1); }, false);
     //$("#hoyrepil").addEventListener("mousedown", function () { bildegalleri(1); }, false);
@@ -155,6 +187,8 @@ svg.addEventListener('load', function(){
         $( "#hoyrepil-partner" ).click(function() { bildegalleripartner(1);});
         $( "#venstrepil-partner" ).click(function() { bildegalleripartner(-1);});
     }
+    
+    
 });
 
 function showHytte(hytte) {

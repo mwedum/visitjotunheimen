@@ -295,7 +295,6 @@ header {
 }
 .guida-input {
     background: transparent;
-    margin: 5px;
     width: 90%;
     padding: 7px 9px;
     background: transparent;
@@ -312,7 +311,6 @@ header {
 }
 .transparent-input {
      background: transparent;
-    margin: 5px;
     padding: 7px 9px;
     background: transparent;
     border-radius: 3px;
