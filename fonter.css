@@ -27,6 +27,9 @@
     font-family: Neo-sans-light;
 }
 
+#topptekst h1 {
+    margin-top: 0px;
+}
 h1, .tittel {
     font-family: Neo-sans-regular;
 }

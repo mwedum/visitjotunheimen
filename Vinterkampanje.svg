@@ -16,6 +16,28 @@
     .clickme:hover {
         opacity: 0.3;
     }
+    
+    .forandre {
+        
+    }
+    
+    
+    
+    .confirm_selection {
+        -webkit-transition: text-shadow 1s linear;
+        -moz-transition: text-shadow 1s linear;
+        -ms-transition: text-shadow 1s linear;
+        -o-transition: text-shadow 1s linear;
+        transition: text-shadow 1s linear;
+        transition: background 1s linear;
+         transition: border 1s linear;
+        text-shadow: 0 0 4px blue;
+    }
+    .confirm_selection:hover,
+    .confirm_selection.glow {
+        text-shadow: 0 0 4px blue;
+    }
+    
 	.st0{clip-path:url(#SVGID_2_); }
 	.st1{clip-path:url(#SVGID_4_);}
 	.st2{opacity:0.7;clip-path:url(#SVGID_8_);}
@@ -12403,7 +12425,7 @@ j7d5/wDwQf/Z" transform="matrix(0.297 0 0 0.297 -1.1616 -1.1938)">
 	<g class="st0">
 		<text transform="matrix(1 0 0 1 400.3511 552.813)"><tspan x="0" y="0" class="st37 st41 st42">K</tspan><tspan x="12.1" y="0" class="st37 st41 st42">r</tspan><tspan x="18.5" y="0" class="st37 st41 st42">ossbu</tspan></text>
 	</g>
-	<g class="st0">
+	<g class="st0" id="fossheimtext">
 		<text transform="matrix(1 0 0 1 1004.0117 915.0527)"><tspan x="0" y="0" class="st37 st41 st42">F</tspan><tspan x="10.5" y="0" class="st37 st41 st42">ossheim</tspan></text>
 	</g>
 	<g class="st0">
@@ -14319,7 +14341,7 @@ C/f/2gAIAQICBj8ADf/aAAgBAwIGPwAN/9oACAEBAQY/ANDeFXBVwVcFXBVwceP/2Q==" transform=
 	<rect x="785.3" y="995.8" class="st64" width="18.2" height="18.3"/>
 	<polygon class="st137" points="1038.3,837.8 1096.2,837.8 1096.2,832.5 1075.6,819.6 1038.3,819.6 	"/>
         </g>
-<g class="clickme" id="fossheim" type="image/svg+xml">	
+<g class="clickme forandre" id="fossheim" type="image/svg+xml">	
 <rect  x="1006.8" y="834.3" class="st64" width="81.3" height="47.2"/>	
 <path class="st137" d="M1010.6,877.7h73.8V838h-73.8V877.7z M1091.8,885.2h-88.8v-54.7h88.8V885.2z"/>
 	<polygon class="st137" points="1056.3,837.8 998.5,837.8 998.5,832.5 1019,819.6 1056.3,819.6 	"/>
@@ -16425,7 +16447,7 @@ C/f/2gAIAQICBj8ADf/aAAgBAwIGPwAN/9oACAEBAQY/ANDeFXBVwVcFXBVwceP/2Q==" transform=
 	<polyline class="st216" points="694.4,1662.8 724.7,1652.7 698.2,1663.4 	"/>
 	<polyline class="st215" points="642.8,1662.8 661.5,1637.9 666.7,1649.3 679.5,1631.8 690.6,1642.5 685.4,1664.3 	"/>
         
-<g class="clickme" id="leirvassbu" type="image/svg+xml">		     
+<g class="confirm_selection clickme" id="leirvassbu" type="image/svg+xml">		     
 	<polygon class="st144" points="745.4,1675.9 781.8,1675.9 800.9,1662 818.9,1672.5 817.7,1701 772.4,1703.2 745.4,1702.5 	"/>
 	<polygon class="st137" points="826.8,1673.8 818.4,1673.8 803,1659.6 782,1673.8 762.2,1656.6 801.5,1656.6 	"/>
 	<path class="st137" d="M816.4,1673.8l-15-10.2l-15,10.2v26h30V1673.8z M780.6,1670.7l20.8-14.1l20.8,14.1v34.9h-41.6V1670.7z"/>

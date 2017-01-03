@@ -31,7 +31,7 @@ console.log("Document -" + width);
         $(".finndintur").css('margin-top', width * 0.05042265 +"px" );
         $(".halvbilde").css('width',"300px" );
         $(".bildegalleri").css('height',"300px" );
-        
+        svg.css("transform", "scale(1.5");
 
     }
 svg.addEventListener('load', function(){
@@ -85,6 +85,7 @@ svg.addEventListener('load', function(){
     $(".n6").css('height', n6height+"px");
     if(mobile == true) { top += 80;}
     mobile = false;
+    
     top += n6height;
     var n7height = width * 0.45;
     mobile = true;
@@ -189,6 +190,26 @@ svg.addEventListener('load', function(){
     }
     
     
+    var added = false;
+    var fossheimtxt = svgDoc.getElementById("fossheimtext")
+    setInterval(function(){
+//      skilt.setAttribute('class', 'confirm_selection');
+        if(added == false) {
+           // skilt.setAttribute('class', 'confirm_selection');
+            fossberg.setAttribute('class', 'confirm_selection');
+            bess1.setAttribute('class', 'confirm_selection');
+            bess2.setAttribute('class', 'confirm_selection');
+           // fossheim.setAttribute('class', 'forandre');
+            added = true;
+        } else {
+           // skilt.setAttribute('class', '');
+            fossberg.setAttribute('class', '');
+            bess1.setAttribute('class', '');
+            bess2.setAttribute('class', '');
+           // fossheim.setAttribute('class', '');
+            added = false;
+        }
+    }, 1500);  
 });
 
 function showHytte(hytte) {

@@ -1,3 +1,19 @@
+.confirm_selection {
+    -webkit-transition: text-shadow 1s linear;
+    -moz-transition: text-shadow 1s linear;
+    -ms-transition: text-shadow 1s linear;
+    -o-transition: text-shadow 1s linear;
+    transition: text-shadow 1s linear;
+}
+.confirm_selection:hover,
+.confirm_selection.glow {
+    text-shadow: 0 0 10px red;
+}
+
+#mc_embed_signup input.mce_inline_error {
+    border: 3px solid red;
+}
+
 .samarbeidsp-wrapper {
 width: 100%;
 }
