@@ -1,10 +1,10 @@
+var bildecounter = 1;
+var bildecounterp = 1;
 $(document).ready(function() {
     var width = $(window).width();
     console.log("Document -" + width);
     console.log("Window - " + $( window ).width());
     
-    var bildecounter = 1;
-    var bildecounterp = 1;
     var svg = document.getElementById("svgFile"); 
     var factor = 0.102339181;
     var midtskille;
@@ -34,6 +34,28 @@ $(document).ready(function() {
         $(".bildegalleri").css('height',"300px" );
        // $("#svgFile").css("transform", "scale(1.3, 1.3)");
     }
+    
+    if(width > 1450) {
+        $("p, input").css('font-size',"28pt" );
+        $("h2").css('font-size',"70pt" );
+        $("h1").css('font-size',"90pt" );
+        
+        $(".opp").css('margin',"40px 0 60px 0" );
+        $("h2").css('margin-top',"50px" );
+        $("h2").css('margin-bottom',"50px");
+        $(".nytt-input-send").css('height',"65px");
+        $(".samarbeidsp-wrapper img").css('height',"400px");
+        
+        if(width > 1850) {
+            $("p, input").css('font-size',"32pt" );
+            $("h2").css('font-size',"80pt" );
+            $("h1").css('font-size',"100pt" );
+            $("h2").css('margin-top',"60px" );
+            $("h2").css('margin-bottom',"60px");
+        }
+    }
+    
+    
     
 svg.addEventListener('load', function(){
     var start = width * factor;

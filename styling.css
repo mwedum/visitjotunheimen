@@ -36,26 +36,26 @@ width: 100%;
 }
 
 #venstrepil, #hoyrepil {
-    height: 452px;
+    height: 100%;
     position: relative;
-    margin-top: 25%;
+    margin-top: 28%;
 }
 #venstrepil img, #hoyrepil img {
     height: 70px;
 }
 #bildegalleriwrapper {
-    height: 452px;
-    width: 452px;
+    max-height: 73%;
+    width: 85%;
     overflow: hidden;
     margin: auto;
 }
 
 #bildegalleri {
-    max-height: 452px;
+    /* max-height: 452px; */
 }
 
 .wrapper {
-    width: 670px;
+    width: 50%;
     margin: auto;
     height: auto;
     overflow: hidden;
@@ -84,7 +84,7 @@ width: 100%;
     height: auto;
 }
 .halvbilde {
-    width: 452px;
+    width: 38%;
     margin-left: 3%;
     height: auto;
 }
@@ -294,7 +294,7 @@ header {
     margin-bottom: 40px;
     text-align: center;
     width: 100%;
-    max-width: 350px;
+    max-width: 35%;
     min-width: 300px;
     padding: 7px 9px;
     border-radius: 3px;
@@ -307,7 +307,8 @@ header {
     border: none;
     height: 45px;
     border-radius: 3px;
-    width: 200px;
+    min-width: 200px;
+    width: 20%;
 }
 .guida-input {
     background: transparent;
@@ -343,7 +344,8 @@ header {
 
 .n8 input {
     margin-left: 32%;
-    width: 200px;
+    min-width: 200px;
+    
     font-size: 16pt;
 }
 /*
