@@ -1,5 +1,6 @@
-var width = $( window ).width();
-console.log("Document -" + width);
+$(document).ready(function() {
+    var width = $(window).width();
+    console.log("Document -" + width);
     console.log("Window - " + $( window ).width());
     
     var bildecounter = 1;
@@ -31,9 +32,9 @@ console.log("Document -" + width);
         $(".finndintur").css('margin-top', width * 0.05042265 +"px" );
         $(".halvbilde").css('width',"300px" );
         $(".bildegalleri").css('height',"300px" );
-        svg.css("transform", "scale(1.5");
-
+       // $("#svgFile").css("transform", "scale(1.3, 1.3)");
     }
+    
 svg.addEventListener('load', function(){
     var start = width * factor;
     
@@ -190,7 +191,22 @@ svg.addEventListener('load', function(){
     }
     
     
-    var added = false;
+   /* element = fossheim;    
+    var box = element.getBBox();
+        var cx = box.x + box.width/2;
+        var cy = box.y + box.height/2;
+
+        $(element).animate(
+            { scale: 1.2 },
+            { duration: 2000,
+              step: function(now, fx) {
+                    scaleVal = now;
+                    $(element).attr("transform", "translate(" + cx + " " + cy + ") scale(" + scaleVal + ") translate(" + (-cx) + " " + (-cy) + ")");
+                } 
+            }
+        );*/
+
+    /*var added = false;
     var fossheimtxt = svgDoc.getElementById("fossheimtext")
     setInterval(function(){
 //      skilt.setAttribute('class', 'confirm_selection');
@@ -209,9 +225,9 @@ svg.addEventListener('load', function(){
            // fossheim.setAttribute('class', '');
             added = false;
         }
-    }, 1500);  
+    }, 1500);  */
 });
-
+});
 function showHytte(hytte) {
     $('#myModal').modal('show');
     $('#modalmobil').load(hytte);
