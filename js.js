@@ -36,13 +36,13 @@ $(document).ready(function() {
     }
     
     if(width > 1450) {
-        $("p, input").css('font-size',"28pt" );
+        $("p, input").css('font-size',"25pt" );
         $("h2").css('font-size',"70pt" );
         $("h1").css('font-size',"90pt" );
         
         $(".opp").css('margin',"40px 0 60px 0" );
-        $("h2").css('margin-top',"50px" );
-        $("h2").css('margin-bottom',"50px");
+        $("h2").css('margin-top',"60px" );
+        $("h2").css('margin-bottom',"40px");
         $(".nytt-input-send").css('height',"65px");
         $(".samarbeidsp-wrapper img").css('height',"400px");
         
@@ -50,8 +50,8 @@ $(document).ready(function() {
             $("p, input").css('font-size',"32pt" );
             $("h2").css('font-size',"80pt" );
             $("h1").css('font-size',"100pt" );
-            $("h2").css('margin-top',"60px" );
-            $("h2").css('margin-bottom',"60px");
+            $("h2").css('margin-top',"70px" );
+            $("h2").css('margin-bottom',"50px");
         }
     }
     
