@@ -1,15 +1,33 @@
-.confirm_selection {
-    -webkit-transition: text-shadow 1s linear;
-    -moz-transition: text-shadow 1s linear;
-    -ms-transition: text-shadow 1s linear;
-    -o-transition: text-shadow 1s linear;
-    transition: text-shadow 1s linear;
-}
-.confirm_selection:hover,
-.confirm_selection.glow {
-    text-shadow: 0 0 10px red;
+.navigation {
+    float:right;
+    width: 20px;
+    margin-right: 25px;
 }
 
+.circle {
+	width: 15px;
+	height: 15px;
+        margin-top: 5px;
+        border: 2px solid white;
+        background: white;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+.circleGrey {
+    width: 15px;
+	height: 15px;
+        margin-top: 5px;
+        border: 2px solid lightgrey;
+        background: lightgrey;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.fill {
+    background: lightblue;
+}
 #mc_embed_signup input.mce_inline_error {
     border: 3px solid red;
 }
@@ -19,8 +37,9 @@ width: 100%;
 }
 
 .samarbeidsp-wrapper img {
-    height: 200px;
-    margin-left:8%;
+    width: 13%;
+    height: auto;
+    margin-left:5%;
     margin-top: 3%;
 }
 
@@ -30,7 +49,10 @@ width: 100%;
 #mobileonly {
     display: none;
 }
-
+.modal {
+    top: 10%;
+    left: 10%;
+}
 #mob {
     display: none;
 }
@@ -51,7 +73,7 @@ width: 100%;
 }
 
 #bildegalleri {
-    /* max-height: 452px; */
+     max-width: 100%;
 }
 
 .wrapper {
@@ -90,7 +112,7 @@ width: 100%;
 }
 
 .miniseksjon {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 /* BUNN OG OPP PLASSERING START*/
 .n0 {
@@ -116,17 +138,11 @@ width: 100%;
     display: none;
 }
 
-
-/* BUNN OG OPP PLASSERING SLUTT*/
-
-/* Modal Bokser START */
-
-
 .clickme::on-hover {
     background-color: #AAB2BD;
 }
 .boks-wrapper {
-   border: 5px solid #009ee3;
+   border: 5px solid #373737;
    width: 100%;
    min-width: 300px;
    height: auto;
@@ -148,10 +164,6 @@ width: 100%;
     width: 100%;
 }
 
-
-
-
-
 .midtstillt-tekst {
     text-align: center;
     
@@ -163,73 +175,6 @@ width: 100%;
 .hvit-tekst {
     color: white;
 }
-/*
-
-@font-face {
-    font-family: Neo-sans;
-    src: url(neosansstd-regular-opentype.otf);
-}
-@font-face {
-    font-family: Neo-sans-bold;
-    src: url(ufonts.com_neosansstd-bold-opentype.otf);
-}
-@font-face {
-    font-family: Neo-sans-light;
-    src: url(ufonts.com_neosans-light-opentype.otf);
-}
-
-g.st0 {
-    font-family: Neo-sans;
-}
-.hyttenavn {
-    font-size: 24pt;
-}
-
-.tittel{
-    font-size: 50pt;
-    font-family: Neo-sans;
-    text-align: center;
-}
-h1 {
-    font-family: Neo-sans;
-    font-size: 50pt;
-    font-weight:lighter;
-    margin-bottom: 25px;
-}
-
-h1, tittel {
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-.brodtekst-18 {
-    font-size: 18pt;
-}
-
-.brodtekst-25 {
-    font-size: 25pt;
-}
-
-.mellomtittel-20 {
-    font-weight: bold;
-    font-size: 20pt;
-}
-
-.mellomtittel-25 {
-    font-weight: lighter;
-    font-size: 25pt;
-}
-
-.tittelMellomHytterMobil {
-    font-size: 24pt;
-}
-
-p,ul,li,input {
-    font-size: 18pt;
-    font-family: Neo-sans;
-    
-}
-*/
-
 p.hoyre-tekst {
   text-align:left;
 }
@@ -291,7 +236,7 @@ header {
     margin: auto;
     margin-right: 20px;
     margin-left: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
     width: 100%;
     max-width: 35%;

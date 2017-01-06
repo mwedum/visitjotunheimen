@@ -8,60 +8,31 @@ console.log("Document -" + width);
     var factor = 0.102339181;
     var midtskille;
     var n1;
-    var mobile = true;
+    var mobile = false;
 
-    //if(width < 1024) {
-        factor = 0.184655811;
-        //770px
-        midtskille = width*7.2;
-        //500px
-        //4515/638
-        //midtskille = width * 6.17;
-        mobile = true;
-        
-        svg.setAttribute("data", "Mobil_vinterkampanje.svg");
-        
-        $(".desktop-only").css('display',"none");
-        //$(".venstre").css('float',"none");
-        $("#bildegalleri").css('width',"63%");
-        $(".halvtekst").css('width',"80%");
-        $(".heltekst").css('width',"95%");
-        $(".heltekst").css('margin',"auto");
-        
-        $(".wrapper").css('width',"100%");
-        $(".n0").css('width',"90%");
-        $(".topp").css('margin-left',"0% !important");
-        $(".m-venstre").css('margin',"auto");
-         $(".venstre").css('float',"none");
-         $("h1").css('margin-bottom',"40px");
-         $("h1").css('margin-top',"40px");
-         $("#mob").css('display', "block");
-
-        $(".ned-mobil").css('margin-top',"9%");
-        $("p.hoyre-tekst").css('text-align',"left");
-        $(".tittel").css('font-size', "35pt");
-        $("p").css('font-size',"14pt");
-        $("#mobileonly").css('display',"block");
-                var finndinheight = width * 0.19803849;
-
-        $(".finndintur").css('margin-left',finndinheight*1.0 +"px" );
-        $(".fottekst").css('margin-left',finndinheight*1.1 +"px" );   
-   /* } else {
-        //200 1351- finn din tur boks.
-        var finndinheight = width * 0.19803849;
-        midtskille = (width+30)*1.60818713;
-        var guidatur = width * 0.17;
-        $(".input-plassering").css('margin-top',guidatur +"px" );
-
-        svg.setAttribute("data", "Vinterkampanje.svg");
-        $(".finndintur").css('margin-left',finndinheight*1.1 +"px" );
-        $(".finndintur").css('margin-top',finndinheight +"px" );
-
-  //  }*/
-
-
-
-$(window).on('load', function() {
+    //200 1351- finn din tur boks.
+    svg.setAttribute("data", "Vinterkampanje.svg");
+    var finndinheight = width * 0.19803849;
+    midtskille = (width+30)*1.60818713;
+    var guidatur = width * 0.17;
+    
+    $("#topptekst").css('margin-left', width/11.54 +"px" );
+    $(".input-plassering").css('margin-top',guidatur +"px" );
+    $(".finndintur").css('margin',"auto" );
+    $(".finndintur").css('margin-top', width * 0.107942265 +"px" );
+    
+    if(width < 1024) {
+        console.log("swag");
+        $("p").css('font-size',"14pt" );
+        $("h1").css('font-size',"50pt" );
+        $(".mellomtittel").css('font-size',"25pt" );
+        $(".opp").css('margin',"auto" );
+        $(".n0").css('width',"70%" );
+$(".halvbilde").css('width',"300px" );
+        $(".finndintur").css('margin-top', width * 0.05042265 +"px" );
+	$("#bildegalleri").css('height',"300px" );	
+    }
+svg.addEventListener('load', function(){
     var start = width * factor;
     
     $(".topp").css('top',start + "px");
@@ -98,18 +69,20 @@ $(window).on('load', function() {
     $(".n4").css('height', n4height+"px");
     
     top += n4height;
-    var n5height = width * 0.605;
-    if(mobile == true) { n5height = width * 0.70;}
+    var n5height = width * 0.6;
+    if(mobile == true) { n5height = width * 0.40;}
     $(".n5").css('top', top+"px");
     $(".n5").css('height', n5height+"px");
     
     
     top += n5height;
-    var n6height = width * 0.368;
-    if(mobile == true) { n6height = width * 0.85;}
-
+var n6height = width * 0.368;
+    mobile = true;
+    if(mobile == true) { top -= 80;}
     $(".n6").css('top', top+"px");
     $(".n6").css('height', n6height+"px");
+    if(mobile == true) { top += 80;}
+    mobile = false;
     
     top += n6height;
     var n7height = width * 0.45;
@@ -146,13 +119,13 @@ $(window).on('load', function() {
     var krossbu = svgDoc.getElementById("krosbu");
     var sognefjellshytta2;
     var skilt;
-  /*  if(width >= 1024) {
+    if(width >= 1024) {
         sognefjellshytta2 = svgDoc.getElementById("sognefjellshytta2");
         skilt = svgDoc.getElementById("skilt");
         turtagro = svgDoc.getElementById("turtagro");
-    }*/
+    }
 
-        hogruta.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+    hogruta.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
     fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
     nordal.addEventListener("mousedown", function () { showHytte("bokser/nordal.html"); }, false);
     fossberg.addEventListener("mousedown", function () { showHytte("bokser/fossberg.html"); }, false);
@@ -169,11 +142,12 @@ $(window).on('load', function() {
     memurbu.addEventListener("mousedown", function () { showHytte("bokser/memurbu.html"); }, false);
     gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
     krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
-   /* if(width >= 1024) {
+    
+    if(width >= 1024) {
         sognefjellshytta2.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
-           turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
+        turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
         skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
-    }*/
+    }
 
     //$("#venstrepil").addEventListener("mousedown", function () { bildegalleri(-1); }, false);
     //$("#hoyrepil").addEventListener("mousedown", function () { bildegalleri(1); }, false);
@@ -184,9 +158,6 @@ $(window).on('load', function() {
         $( "#hoyrepil-partner" ).click(function() { bildegalleripartner(1);});
         $( "#venstrepil-partner" ).click(function() { bildegalleripartner(-1);});
     }
-
-    
-
 });
 
 function showHytte(hytte) {
@@ -198,20 +169,20 @@ function showHytte(hytte) {
 
 //hoyrevenstre inneholder enten -1 eller +1;
 function bildegalleri(hoyrevenstre) {
-    var bilder = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg" ];
     bildecounter += hoyrevenstre;
     
-    if(bildecounter >= bilder.length) {
+    if(bildecounter >= 12) {
         bildecounter = 1;
     } else if(bildecounter <= 0) {
-        bildecounter = bilder.length;
+        bildecounter = 12;
     }
-    $('#bildegalleri').attr("src", bilder[bildecounter]);
+    $('#bildegalleri').attr("src", "img/" + bildecounter + ".jpg");
 }
 
 function bildegalleripartner(hoyrevenstre) {
     var bilder = ["logoer/vpg.jpg","logoer/fjellogfritid.png","logoer/dnt.png"];
     bildecounterp += hoyrevenstre;
+
     
     if(bildecounterp > bilder.length) {
         bildecounterp = 0;
