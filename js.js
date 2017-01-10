@@ -1,3 +1,4 @@
+//TEST
 var bildecounter = 1;
 var bildecounterp = 1;
 $(document).ready(function() {
