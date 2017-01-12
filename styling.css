@@ -58,16 +58,28 @@ width: 100%;
 }
 
 #venstrepil, #hoyrepil {
-    height: 100%;
     position: relative;
-    margin-top: 28%;
+    margin-top: 19%;
+}
+
+#venstrepil {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#hoyrepil {
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 #venstrepil img, #hoyrepil img {
     height: 70px;
 }
+
 #bildegalleriwrapper {
     max-height: 73%;
-    width: 85%;
+    width: 70%;
     overflow: hidden;
     margin: auto;
 }
@@ -77,7 +89,7 @@ width: 100%;
 }
 
 .wrapper {
-    width: 50%;
+    width: 60%;
     margin: auto;
     height: auto;
     overflow: hidden;
@@ -116,7 +128,6 @@ width: 100%;
 }
 /* BUNN OG OPP PLASSERING START*/
 .n0 {
-    width: 50%;
     margin: auto;
 }
 .n1,.n2, .n7 {

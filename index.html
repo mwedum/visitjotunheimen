@@ -1,4 +1,5 @@
 <html>
+    <head>
     <meta charset="UTF-8"/>
     <meta name="description" content="Gira på topptur? Gjer klar randoneeskia, splitboardet,
           fjellskia eller kva du måtte foretrekke og bli med til fjells i Jotunheimen! Sjå alle moglegheiter i vårt nye interaktive kart."/>
@@ -8,8 +9,10 @@
     <meta property="og:title" content="Visit Jotunheimen toppturer"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta property="og:image" content="img/Turbeskrivingar_VisitJotunheimen_LiveASulheim.jpg"/>
-    <title>Visit Jotunheimen</title>
-    <body>
+        <title>Visit Jotunheimen</title>
+
+    </head>
+    <body>  
         
         <header>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -18,8 +21,12 @@
             <link rel="stylesheet" type="text/css" href="styling.css">
             <link rel="stylesheet" type="text/css" href="bildegalleri.css">
             <link rel="stylesheet" type="text/css" href="fonter.css">
+                    <script src="js.js"></script>
+
+
         </header>
-            <object id="svgFile" type="image/svg+xml"></object>
+        
+            <object id="svgFile" type="image/svg+xml" data="Vinterkampanje.svg"></object>
             <div class="topp"> 
                 
                 <div id="myModal" class="modal fade" role="dialog">
@@ -85,7 +92,7 @@
                
             
                <div class="absolute n2" id="n2">
-                   <h2>Samarbeidspartnarer</h2>
+                   <h2>Samarbeidspartnarar</h2>
                    <div class="samarbeidsp-wrapper">
                        <a style="margin-left: 0%;" href="https://www.dntoslo.no/" target="_blank">
                         <img src="logoer/dnt.png">
@@ -226,13 +233,13 @@
                     <p>
                         Har du spørsmål - ta kontakt. Vi hjelper deg gjerne med
                         tips som bidrar til at din tur blir uforglemmelig.<br/><br/>
-                        +47 61 21 29 90<br/>
+                        <a href="tel:+47 61 21 29 90" style="color:white;">+47 61 21 29 90</a><br/>
                         <b>info@visitjotunheimen.no</b><br/>
                         Sognefjellsvegen 17, Lom<br/><br/>
                     </p>
                    </div>
                    <br/> 
-                   <input class="transparent-input input-width1 desktop-only" type="button" value="KONTAKT OSS" onclick="showHytte('bokser/kontaktoss.html');">
+                   <input class="transparent-input input-width1" type="button" value="KONTAKT OSS" onclick="showHytte('bokser/kontaktoss.html');">
                    <div class="navigation" id="navn7">
                         <a href="#n0"><div class="circle"></div></a>
                         <a href="#n1"><div class="circle"></div></a>
@@ -246,7 +253,15 @@
             </div>
             <div id="seo" style="display: none;"></div>
         <footer>
-            <script src="js.js"></script>
+            <div class="midtstillt-tekst" style="width: 100%; background:linear-gradient(#346b98,#1a5479); color:white;">
+                <p>
+                    Denne nettsida er 100% låggå i Vågå.<br>
+                    <b>Webutvikling: </b><a href="http://jeit.no" target="_blank" style="color:white;">JEIT.no</a>
+                    | <b>Design:</b> <a href="http://www.lowehjerte.no/" target="_blank" style="color:white;">http://www.lowehjerte.no/</a>
+                </p>
+            </div>
+            
+
             <!-- Facebook Pixel Code -->
             <script>
             !function(f,b,e,v,n,t,s)

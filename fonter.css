@@ -42,7 +42,7 @@ h1, .tittel { font-size: 75pt; }
 h2,.mellomtittel{ font-size: 50pt; }
 .brodtekst { font-size: 25pt; }
 .hyttenavn, .btn, .hyttetitlermobil { font-size: 24pt; }
-p, input { font-size: 18pt; }
+p, input { font-size: 16pt; }
 
 .opp {
     margin: 2% 0 0 0;
