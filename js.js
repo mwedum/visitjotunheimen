@@ -222,9 +222,13 @@ function setCSS() {
     }
     else if(width <= 1450 && width > 1150) {
         $("p,input").css('font-size',"16.5pt" );
+        $("h1").css('font-size',"75pt" );
+        $("h2").css('font-size',"50pt" );
     }
     else if(width <= 1150 && width >= 920) {
         $("p,input").css('font-size',"14pt" );
+        $("h1").css('font-size',"60pt" );
+        $("h2").css('font-size',"40pt" );
     }
     else if(width < 920 && width > 820) 
     {
