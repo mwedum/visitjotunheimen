@@ -15,12 +15,16 @@
     
     .clickme:hover {
         opacity: 0.3;
+    cursor: pointer;
     }
     
     .forandre {
         
     }
-    
+    .clickme {
+        padding: 3px; 
+        cursor: pointer;
+    }
     
     
     .confirm_selection {
