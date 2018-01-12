@@ -14297,6 +14297,52 @@ C/f/2gAIAQICBj8ADf/aAAgBAwIGPwAN/9oACAEBAQY/ANDeFXBVwVcFXBVwceP/2Q==" transform=
 	<rect x="729.6" y="1284.1" class="st136" width="84.4" height="8.6"/>
 	<rect x="746.8" y="1281.2" class="st136" width="49.6" height="7"/>
         </g>
+		
+		<g
+       class="clickme"
+       id="sporten"
+       type="image/svg+xml"
+       transform="translate(106.77097,-241.38711)">
+	   <g  class="st0"
+         clip-path="url(#SVGID_2_)"
+         id="g4824">
+		 <text
+           transform="translate(758.0254,1050.1743)"
+           class="st37 st41 st42"
+           id="text4822"
+           style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff">Sport 1</text>
+		   <text
+           transform="translate(741.0254,1070.1743)"
+           class="st37 st41 st42"
+           id="text4822"
+           style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff">Lomseggen</text>
+</g><rect
+         x="771.20001"
+         y="988.90002"
+         class="st137"
+         width="46.400002"
+         height="39.700001"
+         clip-path="url(#SVGID_2_)"
+         id="rect4826"
+         style="fill:#424242" /><polygon
+         class="st137"
+         points="794.4,994.9 823.2,994.9 824.6,993 794.4,973.2 764.3,993 765.6,994.9 793.2,994.9 "
+         clip-path="url(#SVGID_2_)"
+         id="polygon4828"
+         style="fill:#424242" /><polygon
+         class="st137"
+         points="762.3,990.2 764.3,993 794.4,973.5 824.6,993 826.5,990.1 794.4,969.4 "
+         clip-path="url(#SVGID_2_)"
+         id="polygon4830"
+         style="fill:#424242" /><rect
+         x="785.29999"
+         y="995.79999"
+         class="st64"
+         width="18.200001"
+         height="18.299999"
+         clip-path="url(#SVGID_2_)"
+         id="rect4832"
+         style="fill:#ffffff" /></g>
 <g class="clickme" id="fjellogfritid" type="image/svg+xml">
     <g class="st0">
 		<text transform="matrix(1 0 0 1 741.0254 1050.1743)" class="st37 st41 st42">Fjell og Fritid</text>
@@ -14842,32 +14888,7 @@ C/f/2gAIAQICBj8ADf/aAAgBAwIGPwAN/9oACAEBAQY/ANDeFXBVwVcFXBVwceP/2Q==" transform=
 	<rect x="1150.3" y="1112.2" class="st140" width="6.8" height="6.2"/>
 	<rect x="1116.9" y="1112.2" class="st140" width="13.8" height="6.2"/>
 	<rect x="1190.2" y="1101.3" class="st137" width="4.7" height="6.8"/>
-	<polygon class="st137" points="898.2,845.8 898.2,854.6 910.6,854.6 910.6,840 913.1,841.9 913.1,857.1 895.6,857.1 895.6,845.8 	
-		"/>
-	<polygon class="st137" points="903.8,831.7 903.8,831.7 914.8,843 909.9,843 903.8,836.7 	"/>
-	<polygon class="st137" points="903.8,831.7 903.8,831.7 892.8,843 897.6,843 903.8,836.7 904.3,833.6 	"/>
-	<polygon class="st137" points="885.3,831.7 885.3,831.7 874.3,843 893.6,843 903.2,836.4 903.8,831.7 	"/>
-	<polygon class="st140" points="897,843 910.6,845.3 910.6,843 904.1,836.3 	"/>
-	<rect x="884.1" y="842.3" class="st137" width="14.1" height="14.8"/>
-	<polygon class="st137" points="859.7,846.8 864.2,845.9 879.6,845.9 879.6,857.1 859.7,857.1 	"/>
-	<rect x="898.2" y="843" class="st140" width="12.4" height="14.1"/>
-	<rect x="901.9" y="848.6" class="st137" width="4.8" height="8.6"/>
-	<rect x="864.8" y="848.6" class="st140" width="9.8" height="4.4"/>
-	<polygon class="st137" points="847.1,819.4 849,817.4 850.2,818.6 876.3,818.6 897,840 891,840 891,859.9 844.7,859.9 844.7,840 
-		827.1,840 	"/>
-	<polygon class="st137" points="867.2,841.2 867.2,853.5 884.6,853.5 884.6,833 888.2,835.7 888.2,857.1 863.6,857.1 863.6,841.2 	
-		"/>
-	<polygon class="st137" points="875.1,821.3 875.1,821.3 890.6,837.3 883.6,837.3 875.1,828.4 	"/>
-	<polygon class="st137" points="875.1,821.3 875.1,821.3 859.6,837.3 866.5,837.3 875.1,828.4 875.8,824 	"/>
-	<polygon class="st137" points="849,821.3 849,821.3 833.5,837.3 860.7,837.3 874.2,827.9 875.1,821.3 	"/>
-	<rect x="847.4" y="836.3" class="st137" width="19.8" height="20.8"/>
-	<polygon class="st137" points="813,842.6 819.3,841.3 841,841.3 841,857.1 813,857.1 	"/>
-	<polygon class="st137" points="826.2,828.3 826.2,828.3 810.7,844.3 841.1,844.3 856.6,828.3 	"/>
-	<polygon class="st140" points="867.2,857.1 884.6,857.1 884.6,837.3 875.8,827.8 867.2,837.3 	"/>
-	<rect x="872.4" y="845.1" class="st137" width="6.8" height="12.1"/>
-	<rect x="853.5" y="845.1" class="st140" width="6.8" height="6.2"/>
-	<rect x="820.1" y="845.1" class="st140" width="13.8" height="6.2"/>
-	<rect x="893.5" y="834.2" class="st137" width="4.7" height="6.8"/>
+
 	<polygon class="st137" points="1250.2,1078.3 1250.2,1087.1 1262.6,1087.1 1262.6,1072.5 1265.2,1074.4 1265.2,1089.6 
 		1247.7,1089.6 1247.7,1078.3 	"/>
 	<polygon class="st137" points="1255.8,1064.2 1255.8,1064.2 1266.8,1075.6 1261.9,1075.6 1255.8,1069.2 	"/>

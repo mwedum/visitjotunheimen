@@ -48,6 +48,7 @@ function addEventListeners() {
         var stor2 = svgDoc.getElementById("store2");
         var skilt = svgDoc.getElementById("skilt");
         var turtagro = svgDoc.getElementById("turtagro");
+        var sporten = svgDoc.getElementById("sporten");
 
         var hurrungane = svgDoc.getElementById("hurrungane");
         hurrungane.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
@@ -149,6 +150,7 @@ function addEventListeners() {
         memurbu.addEventListener("mousedown", function () { showHytte("bokser/memurbu.html"); }, false);
         gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
         krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
+        sporten.addEventListener("mousedown", function () { showHytte("bokser/sporten.html"); }, false);
 
         turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
         skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
@@ -348,10 +350,10 @@ function loadHTMLSEO() {
 function bildegalleri(hoyrevenstre) {
     bildecounter += hoyrevenstre;
     
-    if(bildecounter >= 12) {
+    if(bildecounter >= 16) {
         bildecounter = 1;
     } else if(bildecounter <= 0) {
-        bildecounter = 12;
+        bildecounter = 16;
     }
     $('#bildegalleri').attr("src", "img/" + bildecounter + ".jpg");
 }
