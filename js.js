@@ -49,6 +49,7 @@ function addEventListeners() {
         var skilt = svgDoc.getElementById("skilt");
         var turtagro = svgDoc.getElementById("turtagro");
         var sporten = svgDoc.getElementById("sporten");
+        var storhaugen = svgDoc.getElementById("storhaugen");
 
         var hurrungane = svgDoc.getElementById("hurrungane");
         hurrungane.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
@@ -151,6 +152,7 @@ function addEventListeners() {
         gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
         krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
         sporten.addEventListener("mousedown", function () { showHytte("bokser/sporten.html"); }, false);
+        storhaugen.addEventListener("mousedown", function () { showHytte("bokser/Storhaugen.html"); }, false);
 
         turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
         skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
