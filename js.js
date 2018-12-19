@@ -52,7 +52,7 @@ function addEventListeners() {
         var storhaugen = svgDoc.getElementById("storhaugen");
 
         var hurrungane = svgDoc.getElementById("hurrungane");
-        hurrungane.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
+        hurrungane.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
 
         var h1 = svgDoc.getElementById("hvit1");
         var h2 = svgDoc.getElementById("hvit2");
