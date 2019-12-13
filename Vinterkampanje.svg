@@ -122,6 +122,10 @@
         padding: 3px; 
         cursor: pointer;
     }
+
+    .cantclick {
+      opacity: 0.5;
+    }
     
     
     .confirm_selection {
@@ -2392,7 +2396,7 @@
            xlink:href="#SVGID_155_"
            style="overflow:visible;"
            id="use1029" /></clipPath></g><g
-       class="clickme"
+       class="cantclick"
        id="roisheim"
        type="image/svg+xml"><g
          class="st0"
@@ -2606,7 +2610,7 @@
          height="7"
          clip-path="url(#SVGID_2_)"
          id="rect1122" /></g><g
-       class="clickme"
+       class="cantclick"
        id="sporten"
        type="image/svg+xml"
        transform="translate(106.77097,-241.38711)"><g
@@ -2681,7 +2685,7 @@
          height="18.3"
          clip-path="url(#SVGID_2_)"
          id="rect1144" /></g><g
-       class="clickme forandre"
+       class="cantclick"
        id="fossheim"
        type="image/svg+xml"><g
          class="st0"
@@ -2839,7 +2843,7 @@
          points="1072.1,887 1064.9,887 1064.9,835 1072.1,842.4  "
          clip-path="url(#SVGID_2_)"
          id="polygon1200" /></g><g
-       class="clickme"
+       class="cantclick"
        id="raubergstulen"
        type="image/svg+xml"><g
          class="st0"
@@ -5792,7 +5796,7 @@
        height="18.3"
        clip-path="url(#SVGID_2_)"
        id="rect2671" /><g
-       class="clickme"
+       class="cantclick"
        id="fossberg"
        type="image/svg+xml"><g
          class="st0"
@@ -6340,7 +6344,7 @@
        height="6.8"
        clip-path="url(#SVGID_2_)"
        id="rect2902" /><g
-       class="clickme"
+       class="cantclick"
        id="jotunheimenfjellstue"
        type="image/svg+xml"><g
          class="st0"
@@ -6596,7 +6600,7 @@
          height="14.7"
          clip-path="url(#SVGID_2_)"
          id="rect3003" /></g><g
-       class="clickme"
+       class="cantclick"
        id="gjendesheim"
        type="image/svg+xml"><g
          class="st0"
@@ -7310,7 +7314,7 @@
        points="831.2,7495.8 903.7,7581.2 819.1,7503.4  "
        clip-path="url(#SVGID_2_)"
        id="polygon3333" /><g
-       class="clickme"
+       class="cantclick"
        id="storhaugen"
        type="image/svg+xml"
        transform="translate(183.84079,-322.03986)"><g
@@ -8117,7 +8121,7 @@
          height="14.7"
          clip-path="url(#SVGID_2_)"
          id="rect3644" /></g><g
-       class="clickme"
+       class="cantclick"
        id="turtagro"
        type="image/svg+xml"><g
          class="st0"

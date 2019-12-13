@@ -152,7 +152,8 @@ function addEventListeners() {
         memurbu.addEventListener("mousedown", function () { showHytte("bokser/memurbu.html"); }, false);
         gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
         krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
-        sporten.addEventListener("mousedown", function () { showHytte("bokser/sporten.html"); }, false);
+        //sporten.addEventListener("mousedown", function () { showHytte("bokser/sporten.html"); }, false);
+        sporten.attr("opacity", "0.8");
         storhaugen.addEventListener("mousedown", function () { showHytte("bokser/Storhaugen.html"); }, false);
         boverdalenvandrerhjem.addEventListener("mousedown", function () { showHytte("bokser/boverdalenvandrerhjem.html"); }, false);
 
