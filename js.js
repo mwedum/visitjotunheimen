@@ -51,7 +51,7 @@ function addEventListeners() {
         var sporten = svgDoc.getElementById("sporten");
         var storhaugen = svgDoc.getElementById("storhaugen");
         var boverdalenvandrerhjem = svgDoc.getElementById("boverdalenvandrerhjem");
-
+        var brimibue = svgDoc.getElementById("fjellogfritid-5");
         var hurrungane = svgDoc.getElementById("hurrungane");
         hurrungane.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
 
@@ -136,29 +136,29 @@ function addEventListeners() {
         bess1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         bess2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
 
-        fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
+        //fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
         nordal.addEventListener("mousedown", function () { showHytte("bokser/nordal.html"); }, false);
-        fossberg.addEventListener("mousedown", function () { showHytte("bokser/fossberg.html"); }, false);
+        //fossberg.addEventListener("mousedown", function () { showHytte("bokser/fossberg.html"); }, false);
         fjellogfritid.addEventListener("mousedown", function () { showHytte("bokser/fjellogfritid.html"); }, false);
-        roisheim.addEventListener("mousedown", function () { showHytte("bokser/roisheim.html"); }, false);
-        raubergstulen.addEventListener("mousedown", function () { showHytte("bokser/raubergstulen.html"); }, false);
+        //roisheim.addEventListener("mousedown", function () { showHytte("bokser/roisheim.html"); }, false);
+        //raubergstulen.addEventListener("mousedown", function () { showHytte("bokser/raubergstulen.html"); }, false);
         spiterstulen.addEventListener("mousedown", function () { showHytte("bokser/spiterstulen.html"); }, false);
         juvass.addEventListener("mousedown", function () { showHytte("bokser/juvasshytta.html"); }, false);                   
-        jotunheimenfjellstue.addEventListener("mousedown", function () { showHytte("bokser/jotunheimenfjellstue.html"); }, false);
+        //jotunheimenfjellstue.addEventListener("mousedown", function () { showHytte("bokser/jotunheimenfjellstue.html"); }, false);
         bessheim.addEventListener("mousedown", function () { showHytte("bokser/bessheim.html"); }, false);
         leirvassbu.addEventListener("mousedown", function () { showHytte("bokser/leirvassbu.html"); }, false);
         glitterheim.addEventListener("mousedown", function () { showHytte("bokser/glitterheim.html"); }, false);
         sognefjellshytta1.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
         memurbu.addEventListener("mousedown", function () { showHytte("bokser/memurbu.html"); }, false);
-        gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
+        //gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
         krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
         //sporten.addEventListener("mousedown", function () { showHytte("bokser/sporten.html"); }, false);
-        sporten.attr("opacity", "0.8");
-        storhaugen.addEventListener("mousedown", function () { showHytte("bokser/Storhaugen.html"); }, false);
+        //storhaugen.addEventListener("mousedown", function () { showHytte("bokser/Storhaugen.html"); }, false);
         boverdalenvandrerhjem.addEventListener("mousedown", function () { showHytte("bokser/boverdalenvandrerhjem.html"); }, false);
+        brimibue.addEventListener("mousedown", function () { showHytte("bokser/brimibue.html"); }, false);
 
 
-        turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
+        //turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
         skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
 
         $( "#hoyrepil" ).click(function() { bildegalleri(1);});
