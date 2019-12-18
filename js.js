@@ -54,6 +54,14 @@ function addEventListeners() {
         var brimibue = svgDoc.getElementById("fjellogfritid-5");
         var hurrungane = svgDoc.getElementById("hurrungane");
         hurrungane.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
+        var guide1 = svgDoc.getElementById("guide1");
+        var guide2 = svgDoc.getElementById("guide2");
+        var guide3 = svgDoc.getElementById("guide3");
+        var guide4 = svgDoc.getElementById("guide4");
+        var guide5 = svgDoc.getElementById("guide5");
+        var guide6 = svgDoc.getElementById("guide6");
+        var guide7 = svgDoc.getElementById("polyline2184");
+
 
         var h1 = svgDoc.getElementById("hvit1");
         var h2 = svgDoc.getElementById("hvit2");
@@ -136,6 +144,13 @@ function addEventListeners() {
         bess1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         bess2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
 
+        guide1.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
+        guide2.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
+        guide3.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
+        guide4.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
+        guide5.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
+        guide6.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
+        guide7.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
         //fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
         nordal.addEventListener("mousedown", function () { showHytte("bokser/nordal.html"); }, false);
         //fossberg.addEventListener("mousedown", function () { showHytte("bokser/fossberg.html"); }, false);
