@@ -60,6 +60,7 @@ function addEventListeners() {
         var guide4 = svgDoc.getElementById("guide4");
         var guide5 = svgDoc.getElementById("guide5");
         var guide6 = svgDoc.getElementById("guide6");
+        var guide7_1 = svgDoc.getElementById("tspan6995");
         var guide7 = svgDoc.getElementById("polyline2184");
         var naturopplevingar = svgDoc.getElementById("naturopplevingar");
 
@@ -152,6 +153,7 @@ function addEventListeners() {
         guide5.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
         guide6.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
         guide7.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
+        guide7_1.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
         //fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
         nordal.addEventListener("mousedown", function () { showHytte("bokser/nordal.html"); }, false);
         fossberg.addEventListener("mousedown", function () { showHytte("bokser/fossberg.html"); }, false);
