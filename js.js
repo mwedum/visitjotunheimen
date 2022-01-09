@@ -31,6 +31,7 @@ function addEventListeners() {
         var glitterheim = svgDoc.getElementById("glitterheim");
         var sognefjellshytta1 = svgDoc.getElementById("sognefjellshytta1");
         var memurbu = svgDoc.getElementById("memurbu");
+        var sotaseter = svgDoc.getElementById("sota_seter");
         var gjendesheim = svgDoc.getElementById("gjendesheim");
         var krossbu = svgDoc.getElementById("krosbu");
         var sognefjellshytta2;
@@ -112,6 +113,7 @@ function addEventListeners() {
         var r13 = svgDoc.getElementById("rod13");
         var r14 = svgDoc.getElementById("rod14");
         var r15 = svgDoc.getElementById("rod15");
+        var r16 = svgDoc.getElementById("polyline3520");
 
         r0.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
@@ -129,6 +131,7 @@ function addEventListeners() {
         r13.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r14.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r15.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+        r16.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
 
         stor1.addEventListener("mousedown", function () { showHytte("bokser/rodlinje.html"); }, false);
         stor2.addEventListener("mousedown", function () { showHytte("bokser/rodlinje.html"); }, false);
@@ -175,6 +178,7 @@ function addEventListeners() {
         boverdalenvandrerhjem.addEventListener("mousedown", function () { showHytte("bokser/boverdalenvandrerhjem.html"); }, false);
         //brimibue.addEventListener("mousedown", function () { showHytte("bokser/brimibue.html"); }, false);
         naturopplevingar.addEventListener("mousedown", function () { showHytte("bokser/naturopplevingar.html"); }, false);
+        sotaseter.addEventListener("mousedown", function () { showHytte("bokser/sotaseter.html"); }, false);
 
         //turtagro.addEventListener("mousedown", function () { showHytte("bokser/turtagro.html"); }, false);
         skilt.addEventListener("mousedown", function () { showHytte("bokser/lomskilt.html"); }, false);
