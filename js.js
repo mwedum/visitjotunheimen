@@ -54,7 +54,7 @@ function addEventListeners() {
         var boverdalenvandrerhjem = svgDoc.getElementById("boverdalenvandrerhjem");
         var brimibue = svgDoc.getElementById("fjellogfritid-5");
         var hurrungane = svgDoc.getElementById("hurrungane");
-        hurrungane.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
+        hurrungane.addEventListener("mousedown", function () { showHytte("bokser/hurrungane.html"); }, false);
         var guide1 = svgDoc.getElementById("guide1");
         var guide2 = svgDoc.getElementById("guide2");
         var guide3 = svgDoc.getElementById("guide3");
@@ -81,18 +81,18 @@ function addEventListeners() {
         var h13 = svgDoc.getElementById("hvit13");
         var h14 = svgDoc.getElementById("hvit14");
 
-        h1.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
-        h2.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
+        h1.addEventListener("mousedown", function () { showHytte("bokser/loftet.html"); }, false);
+        h2.addEventListener("mousedown", function () { showHytte("bokser/loftet.html"); }, false);
         h3.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
         h4.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
-        h5.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
-        h6.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
+        h5.addEventListener("mousedown", function () { showHytte("bokser/stortjuvtind.html"); }, false);
+        h6.addEventListener("mousedown", function () { showHytte("bokser/stortjuvtind.html"); }, false);
         h7.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
         h8.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
         h9.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
         h10.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
-        h11.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
-        h12.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
+        h11.addEventListener("mousedown", function () { showHytte("bokser/steindalsnose.html"); }, false);
+        h12.addEventListener("mousedown", function () { showHytte("bokser/steindalsnose.html"); }, false);
         h13.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
         h14.addEventListener("mousedown", function () { showHytte("bokser/hvitlinje.html"); }, false);
 
@@ -120,34 +120,34 @@ function addEventListeners() {
         r2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r3.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r4.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
-        r5.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+        r5.addEventListener("mousedown", function () { showHytte("bokser/surtningssue.html"); }, false);
         r6.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r7.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r8.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r9.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r10.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
-        r11.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+        r11.addEventListener("mousedown", function () { showHytte("bokser/bessho.html"); }, false);
         r12.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r13.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r14.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         r15.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
-        r16.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+        r16.addEventListener("mousedown", function () { showHytte("bokser/surtningssue.html"); }, false);
 
-        stor1.addEventListener("mousedown", function () { showHytte("bokser/rodlinje.html"); }, false);
-        stor2.addEventListener("mousedown", function () { showHytte("bokser/rodlinje.html"); }, false);
+        stor1.addEventListener("mousedown", function () { showHytte("bokser/storebjorn.html"); }, false);
+        stor2.addEventListener("mousedown", function () { showHytte("bokser/storebjorn.html"); }, false);
 
-        glitter1.addEventListener("mousedown", function () { showHytte("bokser/rodlinje.html"); }, false);
-        glitter2.addEventListener("mousedown", function () { showHytte("bokser/rodlinje.html"); }, false);
-        gal1.addEventListener("mousedown", function () { showHytte("bokser/rodlinje.html"); }, false);
-        gal2.addEventListener("mousedown", function () { showHytte("bokser/rodlinje.html"); }, false);
+        glitter1.addEventListener("mousedown", function () { showHytte("bokser/glittertind.html"); }, false);
+        glitter2.addEventListener("mousedown", function () { showHytte("bokser/glittertind.html"); }, false);
+        gal1.addEventListener("mousedown", function () { showHytte("bokser/galdhopiggen.html"); }, false);
+        gal2.addEventListener("mousedown", function () { showHytte("bokser/galdhopiggen.html"); }, false);
 
-        surtningt.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
-        surtning.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+        surtningt.addEventListener("mousedown", function () { showHytte("bokser/surtningssue.html"); }, false);
+        surtning.addEventListener("mousedown", function () { showHytte("bokser/surtningssue.html"); }, false);
         hogruta.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         hog1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
         hog2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
-        bess1.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
-        bess2.addEventListener("mousedown", function () { showHytte("bokser/hogruta.html"); }, false);
+        bess1.addEventListener("mousedown", function () { showHytte("bokser/bessho.html"); }, false);
+        bess2.addEventListener("mousedown", function () { showHytte("bokser/bessho.html"); }, false);
 
         guide1.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
         guide2.addEventListener("mousedown", function () { showHytte("bokser/guide.html"); }, false);
@@ -167,13 +167,13 @@ function addEventListeners() {
         juvass.addEventListener("mousedown", function () { showHytte("bokser/juvasshytta.html"); }, false);                   
         jotunheimenfjellstue.addEventListener("mousedown", function () { showHytte("bokser/jotunheimenfjellstue.html"); }, false);
         bessheim.addEventListener("mousedown", function () { showHytte("bokser/bessheim.html"); }, false);
-        //leirvassbu.addEventListener("mousedown", function () { showHytte("bokser/leirvassbu.html"); }, false);
-        //glitterheim.addEventListener("mousedown", function () { showHytte("bokser/glitterheim.html"); }, false);
+        leirvassbu.addEventListener("mousedown", function () { showHytte("bokser/leirvassbu.html"); }, false);
+        glitterheim.addEventListener("mousedown", function () { showHytte("bokser/glitterheim.html"); }, false);
         sognefjellshytta1.addEventListener("mousedown", function () { showHytte("bokser/sognefjellshytta.html"); }, false);
         memurbu.addEventListener("mousedown", function () { showHytte("bokser/memurbu.html"); }, false);
         gjendesheim.addEventListener("mousedown", function () { showHytte("bokser/gjendesheim.html"); }, false);
         krossbu.addEventListener("mousedown", function () { showHytte("bokser/krossbu.html"); }, false);
-        sporten.addEventListener("mousedown", function () { showHytte("bokser/sporten.html"); }, false);
+        //sporten.addEventListener("mousedown", function () { showHytte("bokser/sporten.html"); }, false);
         //storhaugen.addEventListener("mousedown", function () { showHytte("bokser/Storhaugen.html"); }, false);
         boverdalenvandrerhjem.addEventListener("mousedown", function () { showHytte("bokser/boverdalenvandrerhjem.html"); }, false);
         //brimibue.addEventListener("mousedown", function () { showHytte("bokser/brimibue.html"); }, false);
@@ -302,8 +302,8 @@ function setCSS() {
     //501px 1468 width KORREKT
     var top = midtskille + n1height;
     var n2height = width * 0.3662;
-    $(".n2").css('top', top+"px");
-    $(".n2").css('height', n2height+"px");
+    $(".n2").css('top', top-4+"px");
+    $(".n2").css('height', n2height+5+"px");
     
     //Guida turer
     top += n2height;
