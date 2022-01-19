@@ -196,12 +196,12 @@
      id="namedview4323"
      showgrid="false"
      inkscape:zoom="0.81454785"
-     inkscape:cx="673.99797"
-     inkscape:cy="6235.3348"
+     inkscape:cx="469.59009"
+     inkscape:cy="6661.5835"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4312" /><style
+     inkscape:current-layer="sporten" /><style
      type="text/css"
      id="style2">
     @font-face {
@@ -1196,6 +1196,7 @@
 
 
 
+
 </g><g
    class="st0 hogrut clickme"
    id="bess1"
@@ -1210,6 +1211,7 @@
 
 
 
+
 </g><g
    class="st0 hogrut clickme"
    id="bess2"
@@ -1217,6 +1219,7 @@
    transform="matrix(0.9848 0 -0.1736 0.9848 954.9766 1933.6552)"
    class="st43 st41 st44"
    id="text333">2258 moh.</text>
+
 
 
 
@@ -1250,6 +1253,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan344">ebjørn</tspan></text>
+
 
 
 
@@ -1619,6 +1623,7 @@
    transform="matrix(-6.123234e-17 -1 1 -6.123234e-17 8.7234 4983.4634)"
    class="st59 st88 st89"
    id="text521" />
+
 
 
 
@@ -2558,6 +2563,7 @@
 
 
 
+
 </g><polygon
      class="st135"
      points="742,1240 775,1234.3 795,1237.1 802,1241.2 801,1286.8 742,1287.3  "
@@ -2759,34 +2765,7 @@
    class="cantclick"
    id="sporten"
    type="image/svg+xml"
-   transform="translate(106.77097,-241.38711)"><g
-     class="st0"
-     clip-path="url(#SVGID_2_)"
-     id="g4824"><text
-   transform="translate(758.0254,1050.1743)"
-   class="st37 st41 st42"
-   id="text4822"
-   style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff">Sport 1</text>
-
-
-
-
-
-
-
-<text
-   transform="translate(769.0254,1070.1743)"
-   class="st37 st41 st42"
-   id="text1126"
-   style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff">Lom</text>
-
-
-
-
-
-
-
-</g><rect
+   transform="translate(106.77097,-241.38711)"><rect
      x="771.20001"
      y="988.90002"
      class="st137"
@@ -2813,25 +2792,10 @@
      clip-path="url(#SVGID_2_)"
      id="rect4832"
      style="fill:#ffffff" /></g><g
-   class="clickme"
+   class="cantclick"
    id="fjellogfritid"
    type="image/svg+xml"
-   transform="translate(11.662912,25.167337)"><g
-     class="st0"
-     clip-path="url(#SVGID_2_)"
-     id="g1136"><text
-   transform="translate(741.0254,1050.1743)"
-   class="st37 st41 st42"
-   id="text1134"
-   style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff">Fjell og Fritid</text>
-
-
-
-
-
-
-
-</g><rect
+   transform="translate(11.662912,25.167337)"><rect
      x="771.20001"
      y="988.90002"
      class="st137"
@@ -2874,6 +2838,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan1149" /></text>
+
 
 
 
@@ -3051,6 +3016,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan1211" /></text>
+
 
 
 
@@ -3483,6 +3449,7 @@
 
 
 
+
 </g><g
      class="st0"
      clip-path="url(#SVGID_2_)"
@@ -3519,6 +3486,7 @@
      class="st37 st41 st42"
      id="tspan1458"
      style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff" /></text>
+
 
 
 
@@ -3796,6 +3764,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="hvit13"
@@ -3806,6 +3775,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan1552">Turbeskrivingar / guida turar</tspan></text>
+
 
 
 
@@ -6020,6 +5990,7 @@
 
 
 
+
 </g><g
      class="st0"
      clip-path="url(#SVGID_2_)"
@@ -6061,6 +6032,7 @@
 
 
 
+
 </g><g
      class="st0"
      clip-path="url(#SVGID_2_)"
@@ -6079,6 +6051,7 @@
      y="0"
      class="st59 st251 st42"
      id="tspan2658" /></text>
+
 
 
 
@@ -6133,6 +6106,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan2679" /></text>
+
 
 
 
@@ -6691,6 +6665,7 @@
 
 
 
+
 </g><g
      class="st0"
      clip-path="url(#SVGID_2_)"
@@ -6709,6 +6684,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan2918">tue</tspan></text>
+
 
 
 
@@ -6941,6 +6917,7 @@
 
 
 
+
 </g><g
    class="clickme"
    id="gjendesheim"
@@ -6951,6 +6928,7 @@
    transform="matrix(1 0 0 1 1158.751 2121.3125)"
    class="st37 st41 st42"
    id="text3006">Gjendesheim</text>
+
 
 
 
@@ -7045,6 +7023,7 @@
 
 
 
+
 </g><polygon
      class="st144"
      points="1190.7,1963.8 1227.1,1963.8 1246.2,1949.9 1264.2,1960.4 1263,1988.9 1217.7,1991.1 1190.7,1990.4     "
@@ -7132,6 +7111,7 @@
 
 
 
+
 </g><polygon
      class="st144"
      points="797.8,2082 834.2,2082 853.3,2068.1 871.3,2078.6 870.1,2107.1 824.8,2109.3 797.8,2108.6  "
@@ -7212,6 +7192,7 @@
    transform="matrix(1 0 0 1 1035.125 1700.4131)"
    class="st37 st41 st42"
    id="text3099">Glitterheim</text>
+
 
 
 
@@ -7380,6 +7361,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan3178" /></text>
+
 
 
 
@@ -7713,6 +7695,7 @@
 
 
 
+
 <text
    y="1528.4706"
    x="585.35321"
@@ -7722,6 +7705,7 @@
      class="st37 st41 st42"
      id="tspan7069-0"
      style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff" /></text>
+
 
 
 
@@ -7842,6 +7826,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan3362" /></text>
+
 
 
 
@@ -8338,6 +8323,7 @@
 
 
 
+
 </g><g
    class="st0"
    id="surtningt"
@@ -8345,6 +8331,7 @@
    transform="matrix(0.9848 0 -0.1736 0.9848 937.9777 1821.9579)"
    class="st43 st41 st44"
    id="text3569">2368 moh.</text>
+
 
 
 
@@ -8432,6 +8419,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="glitter1"
@@ -8439,6 +8427,7 @@
    transform="matrix(1 0 0 1 987.7314 1513.271)"
    class="st43 st41 st42"
    id="text3584">Glittertind</text>
+
 
 
 
@@ -8460,6 +8449,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="gal1"
@@ -8474,6 +8464,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="gal2"
@@ -8481,6 +8472,7 @@
    transform="matrix(0.9848 0 -0.1736 0.9848 820.8469 1419.1316)"
    class="st43 st41 st44"
    id="text3593">2469 moh.</text>
+
 
 
 
@@ -8549,6 +8541,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan3614">ossbu</tspan></text>
+
 
 
 
@@ -8651,6 +8644,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan3653" /></text>
+
 
 
 
@@ -8876,6 +8870,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="hvit2"
@@ -8883,6 +8878,7 @@
    transform="matrix(0.9848 0 -0.1736 0.9848 505.1877 1552.1571)"
    class="st68 st41 st44"
    id="text3758">2170 moh.</text>
+
 
 
 
@@ -8963,6 +8959,7 @@
      y="0"
      class="st37 st41 st42"
      id="tspan3791">assbu</tspan></text>
+
 
 
 
@@ -9242,6 +9239,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="store2"
@@ -9249,6 +9247,7 @@
    transform="matrix(0.9848 0 -0.1736 0.9848 634.3661 1763.6292)"
    class="st43 st41 st44"
    id="text3917">2222 moh.</text>
+
 
 
 
@@ -9934,6 +9933,7 @@
 
 
 
+
 </a></g><g
    class="st0 clickme"
    id="hvit11"
@@ -9955,6 +9955,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="hvit12"
@@ -9969,6 +9970,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="hurrungane"
@@ -9976,6 +9978,7 @@
    transform="matrix(1 0 0 1 705.2559 2249.7622)"
    class="st68 st41 st42"
    id="text4281">Hurrungane</text>
+
 
 
 
@@ -10048,6 +10051,7 @@
 
 
 
+
 </g><g
    class="st0 clickme"
    id="hvit6"
@@ -10055,6 +10059,7 @@
    transform="matrix(0.9848 0 -0.1736 0.9848 685.9627 1607.4265)"
    class="st68 st41 st44"
    id="text4307">2344 moh.</text>
+
 
 
 
@@ -10089,6 +10094,7 @@
 
 
 
+
 <text
    y="1528.4706"
    x="585.35321"
@@ -10098,6 +10104,7 @@
      class="st37 st41 st42"
      id="tspan7069-0-7"
      style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff" /></text>
+
 
 
 
@@ -10206,6 +10213,7 @@
 
 
 
+
 <text
    id="text7079-6-8-7"
    x="513.24915"
@@ -10215,6 +10223,7 @@
      class="st37 st41 st42"
      id="tspan7069-3-9-9"
      style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff">vandrerhjem</tspan></text>
+
 
 
 
@@ -10235,6 +10244,7 @@
    style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff"
    x="749.02539"
    y="1050.1743" />
+
 
 
 
@@ -10284,6 +10294,7 @@
 
 
 
+
 </g><rect
      x="771.20001"
      y="988.90002"
@@ -10318,11 +10329,12 @@
      class="st0"
      clip-path="url(#SVGID_2_)"
      id="g3101-8"><text
-       class="st37 st41 st42"
-       id="text3099-4"
-       style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff"
-       x="1025.125"
-       y="1700.4131">Sota Sæter</text>
+   class="st37 st41 st42"
+   id="text3099-4"
+   style="font-size:20px;font-family:Neo-sans-regular;fill:#ffffff"
+   x="1025.125"
+   y="1700.4131">Sota Sæter</text>
+
 </g><polygon
      class="st144"
      points="1123.8,1644.7 1122.6,1673.2 1077.3,1675.5 1050.3,1674.7 1050.3,1648.2 1086.7,1648.2 1105.8,1634.2 "

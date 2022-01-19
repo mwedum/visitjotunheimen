@@ -160,7 +160,7 @@ function addEventListeners() {
         //fossheim.addEventListener("mousedown", function () { showHytte("bokser/fossheim.html"); }, false);
         nordal.addEventListener("mousedown", function () { showHytte("bokser/nordal.html"); }, false);
         fossberg.addEventListener("mousedown", function () { showHytte("bokser/fossberg.html"); }, false);
-        fjellogfritid.addEventListener("mousedown", function () { showHytte("bokser/fjellogfritid.html"); }, false);
+        //fjellogfritid.addEventListener("mousedown", function () { showHytte("bokser/fjellogfritid.html"); }, false);
         roisheim.addEventListener("mousedown", function () { showHytte("bokser/roisheim.html"); }, false);
         //raubergstulen.addEventListener("mousedown", function () { showHytte("bokser/raubergstulen.html"); }, false);
         spiterstulen.addEventListener("mousedown", function () { showHytte("bokser/spiterstulen.html"); }, false);
